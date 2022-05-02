@@ -1,0 +1,18 @@
+---
+title: '2010 Blogging Year In Review'
+date: Fri, 31 Dec 2010 14:38:18 +0000
+draft: false
+tags: ['Blog']
+---
+
+I try to do this post every year as it gives me an idea of where my readers come from and what they are looking at. My blog is consistently getting 100+ unique visitors per day, most of these are new visitors who have found a blog post via organic search results (Google, Yahoo!, etc), with a smaller number having found me through links from other sites or directly into the site. [![](/uploads/2010/12/2010VisitsVsNewVisits.png "2010VisitsVsNewVisits")](/uploads/2010/12/2010VisitsVsNewVisits.png) The most popular article by far has been [Change your MTU in Vista and Windows 7](/archives/2009/10/23/change-your-mtu-under-vista-or-windows-7/ "Change your MTU in Vista and Windows 7"), this is in no small part because I have written one of the few articles that explains the method to identify your ideal MTU, not just the command to change it. The next most popular article is another one from last year titled [Card Reader on Acer Aspire 5100 Series under Windows 7](/archives/2009/10/26/card-reader-on-acer-aspire-5100-series-under-windows-7/) and my explanation of obtaining an [Elevated Command Prompt in Windows 7](/archives/2010/10/07/elevated-command-prompt-on-vista-and-windows-7/) comes in at number 5. With the top two entries centred around fixing problems with Windows 7 this suggests more people are interested in getting their computer working than programming, ho hum. My review of [OneNote and Evernote](/archives/2010/02/27/onenote-vs-evernote/) has been fairly popular, as has my review of [Center Parcs from 2008](/archives/2008/08/02/center-parcs-longleat-forrest/). I shall try and review products and holidays as I go along, although I am reguarly stuck for inspiration in these terms.
+
+## Visitor Breakdown
+
+*   iPhone/iPad/iPod are the most popular mobile platforms to view my site with over three times as many visitors using iOS than Android.
+*   Most popular Browser is Firefox with 40% of the share, IE comes in at 33% and Chrome at 17.5%, strangely Opera has a 4.3% share - I was under the impression that Opera's market share has been dropping off.
+*   Windows holds 95% of the operating system share, presumably the result of my Windows 7 posts.
+
+## Keywords
+
+Unsurprisingly the most of the searches are for "windows 7 mtu" or similar. There also appear to be quite a few people searching for drivers by Googling device strings, this can work well, although in the first instance you should try [PCI Database](http://www.pcidatabase.com/). Further down the list a couple of people have been searching for MSM/PSL which is the prescribed acronym for making a manovure as taught by the DSA, there are some good resources all over the internet including [Smart Learners](http://www.smartlearners.co.uk/tips/routine.htm). Someone has been searching for me on LinkedIn, it may not have been me you were looking for but here is [my profile](http://www.linkedin.com/profile/view?id=46241161) for reference purposes. One user got to my site looking for an answer to the question "windows 7 what are the blue & yellow shields on desktop shortcut icons for"; unsure what it was for but these icons describe executables or shortcuts that either contain information in their manifest or have had their properties changes to require administration rights to execute. There are quite a few posts on social.microsoft.com but very little explaining exactly why they are there. There don't seem to be any funny keyword sequences any more (I looked through all 7,000 from 2010), maybe some will show up next year. So until 2011, good bye and have a happy new year!
