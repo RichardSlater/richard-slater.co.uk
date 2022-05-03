@@ -1,5 +1,6 @@
 ---
 title: 'Driving Lesson #29'
+slug: driving-lesson-29
 date: Mon, 26 Jan 2009 22:20:32 +0000
 draft: false
 tags: ['Diary', 'Driving']

@@ -1,5 +1,6 @@
 ---
 title: 'Driving Lesson #2'
+slug: driving-lesson-2
 date: Tue, 05 Aug 2008 18:26:36 +0000
 draft: false
 tags: ['Diary', 'Driving', 'moving off', 'stopping']

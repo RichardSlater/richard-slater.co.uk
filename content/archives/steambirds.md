@@ -5,7 +5,7 @@ draft: false
 tags: ['Android', 'Games', 'Things You Find']
 ---
 
-Danc gave those who read LostGarden a heads up that Spry Fox was releasing [SteamBirds](http://www.steambirds.com/) for the [Android platform](http://www.lostgarden.com/2010/11/steambirds-now-out-for-iphone-ipad-and.html). I have been watching [Spry Fox](http://www.spryfox.com/) since Dan mentioned it on Lost Garden. Due to being plain busy (no pun intended) I never got a chance to try SteamBirds on the web. Now it is on my phone I get a chance to play it while on the bus!
+Danc gave those who read LostGarden a heads up that Spry Fox was releasing SteamBirds (No longer available) for the [Android platform](http://www.lostgarden.com/2010/11/steambirds-now-out-for-iphone-ipad-and.html). I have been watching [Spry Fox](http://www.spryfox.com/) since Dan mentioned it on Lost Garden. Due to being plain busy (no pun intended) I never got a chance to try SteamBirds on the web. Now it is on my phone I get a chance to play it while on the bus!
 
 [![](/uploads/2010/11/SteamBirds.png "SteamBirds")](/uploads/2010/11/SteamBirds.png)
 

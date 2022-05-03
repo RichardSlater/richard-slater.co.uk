@@ -1,5 +1,6 @@
 ---
 title: 'Driving Lesson #27'
+slug: driving-lesson-27
 date: Mon, 12 Jan 2009 21:18:06 +0000
 draft: false
 tags: ['Blog', 'Diary', 'parking']
