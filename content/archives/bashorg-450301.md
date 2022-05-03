@@ -1,5 +1,6 @@
 ---
 title: 'bash.org #450301'
+slug: bash-org-450301
 date: Tue, 25 Jan 2005 21:26:51 +0000
 draft: false
 tags: ['Things You Find']
