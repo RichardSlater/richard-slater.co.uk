@@ -1,1 +1,7 @@
-/feed/              /index.xml
+/feed/              /index.xml                                                          200
+/about/             /                                                                   303
+/annoyances/        /                                                                   303
+/css/               /                                                                   303
+/links/             /                                                                   303
+/things/            /                                                                   303
+/?p=10              /archives/2004/02/25/integers-eve-and-medical-issues/               301
