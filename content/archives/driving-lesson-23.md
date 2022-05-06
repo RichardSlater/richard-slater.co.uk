@@ -12,7 +12,7 @@ Emergency Stops...
 
 My head is buzzing after doing my first four emergency stops, it isn't the emergency stops that I don't like it is being in charge of a car after doing one, also having your mate shout "STOP" in your left ear, has a somewhat negative Pavlovian conditioning effect on the enjoyment of driving.
 
-So as with my earlier posts I am going to try and write down the procedure for doing an emergency stop, as with previous posts this is my memory of what to do, not official. Please take advise of a qualified driving instructor (like [Kev](http://www.snaildrive.co.uk/)) before trying this.
+So as with my earlier posts I am going to try and write down the procedure for doing an emergency stop, as with previous posts this is my memory of what to do, not official. Please take advise of a qualified driving instructor (like [Kev](https://web.archive.org/web/20090421173352/http://www.snaildrive.co.uk/)) before trying this.
 
 1.  Instructor/Examiner shouts STOP in your left ear ;-).
 2.  Press down the brake, then the clutch (this is for an ABS car).

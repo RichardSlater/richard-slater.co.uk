@@ -5,4 +5,4 @@ draft: false
 tags: ['BBC', 'EVE Online', 'OcPS', 'Photos', 'Planetside', 'Things You Find']
 ---
 
-A friend of mine from EVE, Planetside and OcPS has managed to get some of his photo graphs on his local BBC website, you can see the gallery [here](http://www.bbc.co.uk/lancashire/content/image_galleries/towneley_festival_darryn_gallery.shtml?1) and more photographs on his website [here](http://www.dreederuk.com/Gallery/)
+A friend of mine from EVE, Planetside and OcPS has managed to get some of his photo graphs on his local BBC website, you can see the gallery on his website [here](https://web.archive.org/web/20070521042422/http://www.dreederuk.com/Gallery/)
