@@ -1,6 +1,12 @@
+# Syntatic Sugar and Handle WordPress
 /feed/              /index.xml                                                          200
+
+# Pages temporarily missing from the site
 /about/             /                                                                   302
 /annoyances/        /                                                                   302
 /css/               /                                                                   302
 /links/             /                                                                   302
 /things/            /                                                                   302
+
+# Old "Post ID" WordPress URLs
+/?p=10              /archives/2004/02/25/integers-eve-and-medical-issues/               301
