@@ -1,5 +1,6 @@
 # Syntatic Sugar and Handle WordPress
 /feed/                  /index.xml                                                                     200
+/cpanel                 https://magnetar.servers.prgn.misp.co.uk:2083/                                 302
 
 # Pages temporarily missing from the site
 /about/                 /                                                                              302
