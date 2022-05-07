@@ -56,6 +56,8 @@ params:
       url: "https://app.hackthebox.com/richardslater"
     - name: "Keybase"
       url: "https://keybase.io/richardslater"
+    - name: "Goodreads"
+      url: "https://www.goodreads.com/user/show/7582933-richard-slater"
     - name: "StackOverflow"
       url: "https://stackoverflow.com/users/74302/richard-slater"
     - name: "ServerFault"
