@@ -28,7 +28,7 @@ tags: ['Blog', 'Blog', 'EVE Online', 'Programming']
 1.  [Catherine](http://www.imarriedyou.co.uk/) over at I Married You
 2.  [Haly](http://www.halycopter.com/) over at Halycopter
 3.  [Tim](http://thoughtsofamusingpedant.blogspot.com/) over at Thoughts of a musing pedant
-4.  [CrazyKinux](http://www.crazykinux.com/) over at CrazyKinux's Musing
+4.  CrazyKinux over at CrazyKinux's Musing
 5.  [Winterblink](http://winterblink.com/) over at winterblink.com
 6.  [James Glass](http://jamesjglass.blogspot.com/) over at Outthere
 7.  [Peter Arthur](http://www.robotii.co.uk/) over at Robotii

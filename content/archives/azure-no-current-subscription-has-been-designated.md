@@ -27,4 +27,4 @@ Id                             Type       Subscriptions      Tenants
 powershell@amido.com           User                          12ab34cd-f113-49c7-8f5f-e998ff53b7c1
 ```
 
-I thought this was a little odd, that is until I logged into the [Azure Management Portal](https://manage.windowsazure.com) to find out that indeed there were no subscriptions. As it turns out I had forgotten to add the service account as a Co-Administrator through the Azure Management Portal (Settings -> Administrators), once I had done this everything worked as expected.
+I thought this was a little odd, that is until I logged into the Azure Management Portal to find out that indeed there were no subscriptions. As it turns out I had forgotten to add the service account as a Co-Administrator through the Azure Management Portal (Settings -> Administrators), once I had done this everything worked as expected.
