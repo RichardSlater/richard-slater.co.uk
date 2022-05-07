@@ -2,7 +2,7 @@
 title: 'Using EVEMon Data with LINQPad'
 date: Sat, 31 Jul 2010 21:52:17 +0000
 draft: false
-tags: ['.NET', 'C#', 'EVE Online', 'EVEMon', 'EVEMon', 'LINQPad', 'Programming', 'Programming', 'Visual Studio']
+tags: ['dotnet', 'C#', 'EVE Online', 'EVEMon', 'EVEMon', 'LINQPad', 'Programming', 'Programming', 'Visual Studio']
 ---
 
 [LINQPad](http://www.linqpad.net) is an awesome aide to .NET Developers. Written by Joseph Albahari of [LinqBridge](http://www.albahari.com/nutshell/linqbridge.aspx) and the [C# In a Nutshell](http://www.albahari.com/nutshell) series fame. LINQPad allows the developer to write, compile and run C# or VB.NET Expressions, Statements of Programs outside of Visual Studio. Everything I am going to show you in this post can be done with Visual Studio simply by wrapping the text in a new console application, and adding references to the DLLs. However I strongly encourage you to download LINQPad and give it a go. In the event you are using 64-bit windows and are still using LINQPad 2 you will need to download the [x86 version](http://www.linqpad.net/Beta.aspx) of LINQPad 2, as all of the EVEMon assemblies are compiled for x86. If you have LINQPad 4 you don't need to worry about. Assuming you have [EVEMon](https://evemondevteam.github.io/evemon/) installed, the first step is to load the EVEMon.Common.dll assembly into LINQPad:

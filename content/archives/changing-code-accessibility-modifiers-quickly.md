@@ -2,7 +2,7 @@
 title: 'Changing code accessibility modifiers quickly'
 date: Tue, 12 Oct 2010 20:20:48 +0000
 draft: false
-tags: ['.NET', 'C#', 'CodeRush', 'CodeRush', 'Programming', 'Programming']
+tags: ['dotnet', 'C#', 'CodeRush', 'CodeRush', 'Programming', 'Programming']
 ---
 
 I have two hints today both of them involving changing accessibility modifiers. The first is a feature of CodeRush that I accidentally discovered while testing out the [Visual Studio 2010 Productivity Power Tools](http://visualstudiogallery.msdn.microsoft.com/en-us/d0d33361-18e2-46c0-8ff2-4adea1e34fef?SRC=VSIDE) the second is a great new feature of Visual Studio 2010. For those who don't know what I mean by [accessibility modifiers](http://msdn.microsoft.com/en-us/library/ms173121(v=VS.100).aspx), those are the keywords you put before blocks of code that define how that code can be accessed, this is all enforced by the compiler giving you nice compiler error messages if you violate these rules. To provide an example the following auto-properties are all have the accessibility modifier "public":

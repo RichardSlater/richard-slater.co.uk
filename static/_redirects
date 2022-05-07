@@ -12,6 +12,9 @@
 /archives/2004/02/06/3/ /archives/2004/02/06/googlewhack/                                              301
 /archives/2004/02/08/4/ /archives/2004/02/08/kings-of-chaos-age-3-beta/                                301
 /archives/2004/02/12/5/ /archives/2004/02/12/auraxis-is-looking-pretty-dead/                           301
+/archives/2009/10/23/change-your-mtu-under-vista-or-windows-7/ /archives/2009/10/23/change-your-mtu-under-vista-windows-7-or-windows-8/ 301
+/archives/2008/08/02/center-parcs-longleat-forrest/ /archives/2008/08/02/center-parcs-longleat/        301
+/archives/2013/03/10/elevated-command-prompt-on-windows-8/ /archives/2013/03/12/elevated-command-prompt-on-windows-8/ 301
 
 # Merge Tags and Categories
 /archives/tag/*         /archives/categories/:splat                                                    301

@@ -2,7 +2,7 @@
 title: 'ASP.net 3.5 GridView RowCommand event fired twice'
 date: Thu, 01 Apr 2010 15:25:27 +0000
 draft: false
-tags: ['.NET', 'ASP.net', 'C#', 'Programming', 'Programming', 'Sys Admin']
+tags: ['dotnet', 'ASP.net', 'C#', 'Programming', 'Programming', 'Sys Admin']
 ---
 
 I am writing this up to hopefully save someone else time in the future, this particular problem took up six hours of my day yesterday causing quite a bit of frustration for me, as the developer, and the users of the application. If you are searching for the solution scroll down to the bottom of the page where I will outline the solution I used to resolve the problem. It is also worth pointing out that this does appear to be fixed in .NET 4. Certainly I was able to consistently reproduce the problem with VS2008/.NET 3.5 on multiple different computers. However after converting the project to VS2010/.NET 5 I haven't seen the issue.
