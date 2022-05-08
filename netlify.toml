@@ -1,0 +1,87 @@
+[[headers]]
+  for = "/*"
+  [headers.values]
+    X-Content-Type-Options = "nosniff"
+    Cross-Origin-Resource-Policy = "same-origin"
+
+[[headers]]
+  for = "/*.ico"
+  [headers.values]
+    Content-Type = "image/x-icon"
+
+[[headers]]
+  for = "/*.js"
+  [headers.values]
+    Content-Type = "application/javascript; charset=utf-8"
+
+[[headers]]
+  for = "/*.svg"
+  [headers.values]
+    Content-Type = "image/svg+xml; charset=utf-8"
+
+[[headers]]
+  for = "/"
+  [headers.values]
+    X-XSS-Protection = "1; mode=block"
+    Content-Security-Policy = '''
+      default-src 'none';
+      img-src 'self' data: https://www.googletagmanager.com;
+      style-src 'self' https://fonts.googleapis.com;
+      script-src 'self' https://www.googletagmanager.com https://*.netlify.app/;
+      font-src data: https://fonts.gstatic.com;
+      manifest-src 'none';
+      connect-src https://www.google-analytics.com;
+      frame-src https://www.googletagmanager.com https://app.netlify.com/;
+    '''
+    Strict-Transport-Security = "max-age=63072000;"
+    Expect-CT = "enforce, max-age=86400"
+    Expect-Staple = "max-age=31536000;"
+    Permissions-Policy = '''
+      accelerometer=(),
+      ambient-light-sensor=(),
+      autoplay=(),
+      battery=(),
+      camera=(),
+      cross-origin-isolated=(),
+      display-capture=(),
+      document-domain=(),
+      encrypted-media=(),
+      execution-while-not-rendered=(),
+      execution-while-out-of-viewport=(),
+      fullscreen=(),
+      geolocation=(),
+      gyroscope=(),
+      magnetometer=(),
+      microphone=(),
+      midi=(),
+      payment=(),
+      picture-in-picture=(),
+      publickey-credentials-get=(),
+      screen-wake-lock=(),
+      sync-xhr=(),
+      usb=(),
+      web-share=(),
+      xr-spatial-tracking=()
+    '''
+    Feature-Policy =  '''
+      geolocation 'none';
+      accelerometer 'none';
+      autoplay 'none';
+      camera 'none';
+      document-domain 'none';
+      encrypted-media 'none';
+      fullscreen 'none';
+      gyroscope 'none';
+      magnetometer 'none';
+      microphone 'none';
+      midi 'none';
+      payment 'none';
+      picture-in-picture 'none';
+      sync-xhr 'none';
+      usb 'none';
+      xr-spatial-tracking 'none';
+    '''
+    Referrer-Policy = "strict-origin-when-cross-origin"
+    Cross-Origin-Embedder-Policy = "unsafe-none; report-to=default"
+    Cross-Origin-Opener-Policy = "same-origin; report-to=default"
+    
