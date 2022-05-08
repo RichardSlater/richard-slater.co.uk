@@ -1,0 +1,56 @@
+==================================================================
+https://keybase.io/richardslater
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://www.richard-slater.co.uk
+  * I am richardslater (https://keybase.io/richardslater) on keybase.
+  * I have a public key ASACF3VkDdP1qbI50xMXaxdkTJbPkXYj2smxE6R6NDVhBAo
+
+To do so, I am signing this object:
+
+{
+  "body": {
+    "key": {
+      "eldest_kid": "01207883454ed7b3d30aee88e75381a39272d93661fcb92c046c4a6653579dd0f6510a",
+      "host": "keybase.io",
+      "kid": "0120021775640dd3f5a9b239d313176b17644c96cf917623dac9b113a47a343561040a",
+      "uid": "d22a116e9ae19766d718bc48120b2619",
+      "username": "richardslater"
+    },
+    "merkle_root": {
+      "ctime": 1652015504,
+      "hash": "a33afe85c32c85877b96a73d78b16e843b4eec402f9a537c633787d890f203b38fbafe2d43cc06a37bda0de46936fc57a8c1b876451aaf1a05227cf0249e6854",
+      "hash_meta": "6a76a5ceb288ddcf0aa216348bf94257bc4ff2c01faa464ae43428756014378c",
+      "seqno": 22442662
+    },
+    "service": {
+      "entropy": "5faWqyfA8rGuuqKNK5u0VJdW",
+      "hostname": "www.richard-slater.co.uk",
+      "protocol": "https:"
+    },
+    "type": "web_service_binding",
+    "version": 2
+  },
+  "client": {
+    "name": "keybase.io go client",
+    "version": "5.9.0"
+  },
+  "ctime": 1652015525,
+  "expire_in": 504576000,
+  "prev": "21bcfa4f42960e3c81847b1162a93bba575c56db4738bdbc7bd10ae74dbdba19",
+  "seqno": 92,
+  "tag": "signature"
+}
+
+which yields the signature:
+
+hKRib2R5hqhkZXRhY2hlZMOpaGFzaF90eXBlCqNrZXnEIwEgAhd1ZA3T9amyOdMTF2sXZEyWz5F2I9rJsROkejQ1YQQKp3BheWxvYWTESpcCXMQgIbz6T0KWDjyBhHsRYqk7uldcVttHOL28e9EK5029uhnEIPmqFraE37VmCUm9SpnZioz6UYk3X6q3a8YmtLNmYsT2AgHCo3NpZ8RAei2OCmrzCLI1N1a8S1N6BBOxJ7OWdFHI2TQazw4KseiMdPlLMv/Hd2XEF3yA1ECo4LD6rBwB/sUKy7HE2ZOMC6hzaWdfdHlwZSCkaGFzaIKkdHlwZQildmFsdWXEIEZrRC9xIo5LxhrK+cXhagb7/3ue734Asw0zD7d/WmZqo3RhZ80CAqd2ZXJzaW9uAQ==
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/richardslater
+
+==================================================================
