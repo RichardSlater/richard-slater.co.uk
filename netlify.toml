@@ -20,7 +20,7 @@
     Content-Type = "image/svg+xml; charset=utf-8"
 
 [[headers]]
-  for = "/"
+  for = "/*"
   [headers.values]
     X-XSS-Protection = "1; mode=block"
     Content-Security-Policy = '''
