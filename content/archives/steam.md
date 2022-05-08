@@ -5,7 +5,7 @@ draft: false
 tags: ['Games', 'Games', 'Steam']
 ---
 
-[![Steam Main Window](/uploads/2008/09/untitled-300x232.png "Steam-COD&EVE")](/uploads/2008/09/untitled.png) The day I purchased AudioSurf was the first day that I even saw Steam, sure I had heard lots of people talk about it, many people praising its loveliness and many more complaining that it was evil.
+[![Steam Main Window](/img/archive/2008/09/untitled-300x232.png "Steam-COD&EVE")](/img/archive/2008/09/untitled.png) The day I purchased AudioSurf was the first day that I even saw Steam, sure I had heard lots of people talk about it, many people praising its loveliness and many more complaining that it was evil.
 
 I had never had the need to install it, I owned Half Life (never finished it) and had played a bit of Counter Strike 1.6 in my time, but I had never felt the need to take it any further and buy Half Life 2.
 

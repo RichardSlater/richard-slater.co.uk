@@ -12,7 +12,7 @@ The second part of the lesson focused on turning round in the road, as the title
 
 The basic steps are to start off on the left and steer the car towards the opposite side of the road, this should place the car at a diagonal on the opposite side of the road. In reverse the car is steered to the left back to the other side of the road, this then places the car on the left hand side of the road facing the right hand kerb. From there the car can be steered onto the correct side of the road for the desired direction. The whole procedure should be using the full range of the steering (that is full lock) and the full space of the road and as slow as possible.
 
-[![](/uploads/2008/08/turningroundintheroad1-201x300.png "Turning Round In The Road")](/uploads/2008/08/turningroundintheroad1.png)
+[![](/img/archive/2008/08/turningroundintheroad1-201x300.png "Turning Round In The Road")](/img/archive/2008/08/turningroundintheroad1.png)
 
 The whole process is broken down into three phases, I have tried to describe these below in conjunction with the diagram above. Again this is not meant to be instructional, it may well be wrong, if you believe it is please do feel free to let me know in the comments below.
 

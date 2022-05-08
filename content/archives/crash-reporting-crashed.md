@@ -5,4 +5,4 @@ draft: false
 tags: ['Things You Find']
 ---
 
-Yeah you got to love it, when you are reporting a crash to Sun because OpenOffice.org crashed, the crash reporting program crashed! ![Crash Report Crashing](/uploads/2007/08/crashrepcrashed.thumbnail.png)
+Yeah you got to love it, when you are reporting a crash to Sun because OpenOffice.org crashed, the crash reporting program crashed! ![Crash Report Crashing](/img/archive/2007/08/crashrepcrashed.thumbnail.png)

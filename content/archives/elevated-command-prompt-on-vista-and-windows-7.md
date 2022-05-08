@@ -9,7 +9,7 @@ _I explained how to get an elevated Command Prompt to perform system tasks in th
 
 1.  Press the "Start" button.
 2.  Type "Command".
-3.  "Command Prompt" will be shown in the search results. [![](/uploads/2010/10/SearchStartForCommandPrompt-221x300.png "SearchStartForCommandPrompt")](/uploads/2010/10/SearchStartForCommandPrompt.png)
-4.  Right Click "Command Prompt" and select "Run as Administrator" (it will have a blue and yellow shield beside it). [![](/uploads/2010/10/RunAsAdministrator.jpg "RunAsAdministrator")](/uploads/2010/10/RunAsAdministrator.jpg)
+3.  "Command Prompt" will be shown in the search results. [![](/img/archive/2010/10/SearchStartForCommandPrompt-221x300.png "SearchStartForCommandPrompt")](/img/archive/2010/10/SearchStartForCommandPrompt.png)
+4.  Right Click "Command Prompt" and select "Run as Administrator" (it will have a blue and yellow shield beside it). [![](/img/archive/2010/10/RunAsAdministrator.jpg "RunAsAdministrator")](/img/archive/2010/10/RunAsAdministrator.jpg)
 5.  When prompted click "Yes" to allow Command Prompt to start as Administrator.
-6.  You will know it has worked because the title bar will start with "Administrator:" [![](/uploads/2010/10/AdministratorCommandPrompt.jpg "AdministratorCommandPrompt")](/uploads/2010/10/AdministratorCommandPrompt.jpg)
+6.  You will know it has worked because the title bar will start with "Administrator:" [![](/img/archive/2010/10/AdministratorCommandPrompt.jpg "AdministratorCommandPrompt")](/img/archive/2010/10/AdministratorCommandPrompt.jpg)

@@ -19,7 +19,7 @@ tags: ['Blog', 'Blog', 'EVE Online', 'Programming']
 2.  I first started programming (in Spectrum BASIC) at about the age of 8 since then I have coded projects in Visual Basic, Pascal, C, C++, Java, Ada, PHP and C#.
 3.  I have played EVE Online for almost five years now, have been playing less often of late however I still get to enjoy the time I do spend in EVE, although it is getting increasingly more and more lonely in space.
 4.  I have been learning about Sharepoint over the past few weeks, I have already completed most of the Microsoft e-Learning on the topic and read several blogs, I recently signed up to the Sharepoint User Group UK.
-5.  I wrote [my dissertation](/uploads/2007/08/dissertation.pdf) on the future of MMOGs, I disagree with a good proportion of what I wrote, however it was one of the most enjoyable parts of my Degree.
+5.  I wrote [my dissertation](/img/archive/2007/08/dissertation.pdf) on the future of MMOGs, I disagree with a good proportion of what I wrote, however it was one of the most enjoyable parts of my Degree.
 6.  I type at between 40 and 60 words per minute, it has taken me 5 minutes to get to 300 words in this blog post, some of them however were copied and pasted from Graeme's post.
 7.  Like Graeme I also play bass (albeit I play badly) and dabble in live PA, although I don't really enjoy the later any more.
 

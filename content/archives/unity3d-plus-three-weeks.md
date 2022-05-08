@@ -9,4 +9,4 @@ It is about 3 weeks on since I started learning Unity3d, and today [Makemedia](h
 
 Some of the rockets go a bit crazy some time and fire off into the distance at low speeds which is quite peculiar when it is towards the camera.
 
-[Source Code](/uploads/2010/11/Fireworks.zip)
+[Source Code](/img/archive/2010/11/Fireworks.zip)

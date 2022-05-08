@@ -14,7 +14,7 @@ We arrived from Brighton into Warminster at about 1100 and then at the arrivals 
 
 ## Freewheeler's Cycle Center
 
-[![](/uploads/2008/08/bikes-150x150.jpg "CP08 - Pashley Tri-1 and Mongoose Rockadile")](/uploads/2008/08/bikes.jpg)
+[![](/img/archive/2008/08/bikes-150x150.jpg "CP08 - Pashley Tri-1 and Mongoose Rockadile")](/img/archive/2008/08/bikes.jpg)
 
 Freewheeler's is the name that Center Parcs gives to their cycle hire shop, these people should be given a huge amount of credit as they run a very slick operation. We had booked my mountain bike and Catherine's tricycle in advance on the Internet, so we were able to walk in and out in about 10 minutes.
 
@@ -26,7 +26,7 @@ For those who are interested the trike was a Pashley Tri-1 with seven gears and 
 
 ## The Pancake House 
 
-[![Dusk outside the Pancake House](/uploads/2008/08/outsidepancakehouse-150x150.jpg "CP08 - Dusk outside the Pancake House")](/uploads/2008/08/outsidepancakehouse.jpg) I have fond memories of the Pancake House from my childhood visits to Center Parcs with my parents. It has not changed vastly, there are a few differences in the menu as the organisation has obviously tracked changing parent views with regards to food, making the kids menu virtually all organic food and "healthy".
+[![Dusk outside the Pancake House](/img/archive/2008/08/outsidepancakehouse-150x150.jpg "CP08 - Dusk outside the Pancake House")](/img/archive/2008/08/outsidepancakehouse.jpg) I have fond memories of the Pancake House from my childhood visits to Center Parcs with my parents. It has not changed vastly, there are a few differences in the menu as the organisation has obviously tracked changing parent views with regards to food, making the kids menu virtually all organic food and "healthy".
 
 The food itself was excellent, a great range of vegetarian options for both mains and desserts. It was so good in fact that we went back again for dinner on Friday.
 
@@ -39,7 +39,7 @@ Catherine and I had not realised the sheer amount of walking involved in the Geo
 It was well planned and great fun to do what we did do, we will certainly be looking into Geocaching closer to home, and probably ones that we can do at our own pace.
 
 ## Nature Walk
-[![Stream by Rangers Lodge](/uploads/2008/08/streambyrangerslodge-150x150.jpg "CP08 - Stream by Rangers Lodge")](/uploads/2008/08/streambyrangerslodge.jpg)
+[![Stream by Rangers Lodge](/img/archive/2008/08/streambyrangerslodge-150x150.jpg "CP08 - Stream by Rangers Lodge")](/img/archive/2008/08/streambyrangerslodge.jpg)
 
 Catherine booked us on this nature walk via the Internet booking system that Center Parcs has introduced. At the beginning the ranger (his name was James) joked that this would be the highlight of our stays, and I honestly must say that it was. James was well equipped with the gear (torches and a bat detector) and the knowledge to show us the bats and owls that came out after dark on the village. I won't say much more as this is something that you are best finding out by going along on your own.
 
