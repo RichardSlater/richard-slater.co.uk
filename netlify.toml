@@ -23,6 +23,7 @@
   for = "/*"
   [headers.values]
     X-XSS-Protection = "1; mode=block"
+    X-Frame-Options = "SAMEORIGIN"
     Content-Security-Policy = '''
       default-src 'none';
       img-src 'self' https://www.richard-slater.co.uk data: https://www.googletagmanager.com;
