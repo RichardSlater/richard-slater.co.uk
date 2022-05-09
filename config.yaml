@@ -11,6 +11,10 @@ googleAnalytics: G-S9EH7VDT2S
 
 enableGitInfo: true
 
+markup:
+  highlight:
+    noClasses: false
+
 outputs:
   home:
     - HTML
