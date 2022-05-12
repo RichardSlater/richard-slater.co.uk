@@ -35,6 +35,10 @@ menu:
       name: Search
       url: "/search/"
       weight: 30
+    - identifier: support-me
+      name: Support Me
+      url: "/support-me/"
+      weight: 40
     - identifier: privacy
       name: Privacy
       url: "/privacy/"
