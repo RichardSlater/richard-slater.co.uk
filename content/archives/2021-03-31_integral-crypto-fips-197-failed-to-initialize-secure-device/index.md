@@ -13,7 +13,6 @@ images:
  - "images/4.png"
 aliases:
     - "/integral-crypto-fips-197-failed-to-initialize-secure-device-ccedced05b9e"
-
 ---
 
 I had an unusual experience when using an Integral Crypto FIPS 197 device on a new laptop. This particular device uses `TotalLock.exe` on a read-only CDFS partition to enter the decryption key (password) to mount a hidden partition.

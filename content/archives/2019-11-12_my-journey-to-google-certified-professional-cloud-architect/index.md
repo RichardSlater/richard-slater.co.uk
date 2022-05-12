@@ -29,7 +29,7 @@ First off this exam is savage, the pass mark is somewhere around ~80% as opposed
 
 Don’t be tempted to rush the study and take the exam, give yourself enough time to study, practice and then take the exam when you are close to being ready.
 
-I am a strong advocate for booking the exam in advance to give yourself a deadline. Aim for a deadline 12 weeks ahead, if like me, you lack in Google Cloud experience.### Prior Knowledge
+I am a strong advocate for booking the exam in advance to give yourself a deadline. Aim for a deadline 12 weeks ahead, if like me, you lack in Google Cloud experience.## Prior Knowledge
 
 **GCP Experience**: nothing, I played about and took a couple of the A Cloud Guru courses before the seven-weeks I gave myself to study. The exam does say it expects you to have one or more years’ experience with GCP — not having this myself made the study much harder because there is just so much to remember.
 
@@ -39,7 +39,7 @@ I am a strong advocate for booking the exam in advance to give yourself a deadli
 
 **Other Cloud**: I have 7+ years of Azure, plus a little bit of AWS. This experience was an immense help to me, as all of the high-level patterns that apply to Azure can be used with Google if you squint a little bit.
 
-**Architecture**: I have 2+ years of hands-on Azure Architecture, 1+ year working as a solutions architect for a major retail bank, with a further 5+ years of exposure to said architecture decisions so a reasonable grounding in architecture. I would say this experience helped me to rule out at least one response to 20% of the questions.### Study
+**Architecture**: I have 2+ years of hands-on Azure Architecture, 1+ year working as a solutions architect for a major retail bank, with a further 5+ years of exposure to said architecture decisions so a reasonable grounding in architecture. I would say this experience helped me to rule out at least one response to 20% of the questions.## Study
 
 I booked my exam for seven weeks in advance to focus my mind and dedicated myself to study. I **massively** underestimated the amount of effort as I was consistently working from 0800–2100 with some breaks for lunch and dinner, plus reading in bed or before I got up and weekend study. After four weeks of it, I was feeling burnt out. Fortunately, I had two weeks holiday in which I didn’t study for anything. Came back from holiday and went right back to 12 hour days for a week.
 
@@ -47,7 +47,7 @@ In total I booked 112 hours during work hours, with the remainder taken up by ot
 
 **In short, I spent the equivalent of 3 full days a week studying, and then practice in the evenings and at the weekend for 2–4 hours — I’m fortunate that my employer wanted me to take this exam as soon as possible so gave me the time to do this.**
 
-### Study Materials
+## Study Materials
 
 I followed the following plan, during the holiday, I did a few Qwiklabs quests and read some resources here and there, more to keep my head in the game than to acquire significant knowledge.
 
@@ -107,7 +107,7 @@ Do as many of the quests as you can manage, repetition helps you remember the fi
 
 [**Whizlabs**](https://www.whizlabs.com/google-cloud-certified-professional-cloud-architect/practice-tests/)
 
-Take a couple of the practice tests more seven days before your exam then if you find that you are scoring well below 80% you can postpone the exam day to give yourself more time to prepare. I didn’t do this, I scored 80% on the [Google Practice Exam](https://cloud.google.com/certification/practice-exam/cloud-architect) and 65% and 70% on two of the Whizlabs exams, I passed the exam in the end though.### Taking the Exam
+Take a couple of the practice tests more seven days before your exam then if you find that you are scoring well below 80% you can postpone the exam day to give yourself more time to prepare. I didn’t do this, I scored 80% on the [Google Practice Exam](https://cloud.google.com/certification/practice-exam/cloud-architect) and 65% and 70% on two of the Whizlabs exams, I passed the exam in the end though.## Taking the Exam
 
 The Kryteron platform isn’t great, but it does work well enough. Make sure you read and understand the rules before you take your exam as this could save potential embarrassment on the day.
 
@@ -115,7 +115,7 @@ The exam is predominantly made up of **multiple-choice-single-response questions
 
 My strategy for multiple-choice-single-response questions is to go through each option and rule out anything wrong, then rank the remaining options from least wrong to most wrong. This strategy works well on (ISC)² exams as it’s rarely a case of there being one correct answer.
 
-For the multi-choice-multiple-response answers, you have to make a judgement decision about the correct answers, pay careful attention to the questions it will usually, if not always, include the exact number of answers to select. Focus on ruling out anything wrong and then make a judgement call about whatever is left.### Pass Your Exam
+For the multi-choice-multiple-response answers, you have to make a judgement decision about the correct answers, pay careful attention to the questions it will usually, if not always, include the exact number of answers to select. Focus on ruling out anything wrong and then make a judgement call about whatever is left.## Pass Your Exam
 
 Once you finish your exam, you won’t find out if you have passed or failed immediately, I found that the Kryteron site listed my exam as provisionally passed a few hours after the exam. I then got an e-mail from Google Cloud congratulating me a few days later, along with a [link to my certificate](https://www.credential.net/bcf7500e-83a9-4b73-bb3d-c7359e15c71f).
 

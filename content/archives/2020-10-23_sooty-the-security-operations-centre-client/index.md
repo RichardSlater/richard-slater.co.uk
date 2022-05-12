@@ -10,10 +10,7 @@ images:
  - "images/1.jpg"
 aliases:
     - "/sooty-the-security-operations-centre-client-e985465f1035"
-
 ---
-
-#### On Security
 
 ![image](images/1.jpg)
 Photo by [Dmitry Ratushny](https://unsplash.com/@ratushny?utm_source=medium&amp;utm_medium=referral) on [Unsplash](https://unsplash.com?utm_source=medium&amp;utm_medium=referral)
