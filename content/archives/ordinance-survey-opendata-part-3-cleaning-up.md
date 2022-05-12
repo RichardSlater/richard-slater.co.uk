@@ -36,7 +36,6 @@ ORDER BY Quality
 | 60 | 93 | Postcode sector mean (direct copy from ADDRESS-POINT). |
 | 90 | 6361 | No coordinates available. |
 
-
 For my purposes I want to use the coordinate data stored in the Eastings and Northings columns, which makes postcodes with no data useless to me, I can remove these with the following SQL script:
 
 ```

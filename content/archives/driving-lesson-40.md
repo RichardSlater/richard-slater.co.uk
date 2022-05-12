@@ -1,9 +1,5 @@
 
 
-
-
-
-
 ---
 title: 'Driving Lesson #40'
 slug: driving-lesson-40

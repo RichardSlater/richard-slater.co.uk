@@ -3,16 +3,11 @@ title: "2020 Weekly Update 50: Retail, Healthcare, Vulnerabilities and Politics"
 author: "Richard Slater"
 date: 2020-12-15T08:26:44.593Z
 lastmod: 2022-05-09T21:21:02+01:00
-
 description: ""
-
 subtitle: "Round up of Information and Cyber Security news from the 5th of December to the 11th December."
-
-image: "/archives/2020-12-15_2020-weekly-update-50-retail-healthcare-vulnerabilities-and-politics/images/1.jpg" 
+image: "images/1.jpg" 
 images:
- - "/archives/2020-12-15_2020-weekly-update-50-retail-healthcare-vulnerabilities-and-politics/images/1.jpg"
-
-
+ - "images/1.jpg"
 aliases:
     - "/2020-weekly-update-50-retail-healthcare-vulnerabilities-and-politics-ecaba994e565"
 
@@ -22,17 +17,14 @@ aliases:
 
 #### Round up of Information and Cyber Security news from the 5th of December to the 11th December.
 
-![image](/archives/2020-12-15_2020-weekly-update-50-retail-healthcare-vulnerabilities-and-politics/images/1.jpg#layoutTextWidth)
+![image](images/1.jpg)
 Photo by [Austin Distel](https://unsplash.com/@austindistel?utm_source=medium&amp;utm_medium=referral) on [Unsplash](https://unsplash.com?utm_source=medium&amp;utm_medium=referral)
-
-
 
 ### Hiding Malware in Share Buttons
 
 Some creative individuals have found a way of hiding card skimming malware in the sharing buttons used on various websites. A timely reminder to know what 3rd parties you us and what they might be vulnerable to.
 
 [Novel Online Shopping Malware Hides in Social-Media Buttons](https://threatpost.com/online-shopping-malware-social-media-buttons/161903/)
-
 
 ### Google, Adobe, Valve and Microsoft Patches
 
@@ -56,7 +48,6 @@ Both Google and Microsoft emitted a slew of updates in the last week including f
 
 [The patch that wasn&#39;t: Cisco emits fresh fixes for NTLM hash-spilling vuln and XSS-RCE combo in…](https://www.theregister.com/2020/12/10/cisco_jabber_xss_rce_ntlm_hash_patches/)
 
-
 ### Kmart hit in Egregor Ransomware Attack
 
 This is a very US-centric post; however it serves to remind that Retail is a huge target at the moment:
@@ -65,20 +56,17 @@ This is a very US-centric post; however it serves to remind that Retail is a hug
 
 [It&#39;s not just the economy and bad management messing with Kmart - ransomware crews are there too](https://www.theregister.com/2020/12/07/in_brief_security/)
 
-
 ### Travel Agent drops the ball and gives away customer data on purpose, by accident
 
 In an attempt to do something cool, a travel agent accidentally gave access to customer data to participants during a hackathon.
 
 [Travel agent leaked customer data by - this is embarrassing - giving it away in a hackathon](https://go.theregister.com/feed/www.theregister.com/2020/12/07/data_breach_in_hackathon_data/)
 
-
 ### Managing Instance Metadata Service Data
 
 Check Point Software posted a great article about how to manage the security of Instance Metadata in AWS; many of the points are valuable in Azure and GCP too.
 
 [AWS Instance Metadata Service (IMDS) Best Practices - Check Point Software](https://blog.checkpoint.com/2020/12/07/aws-instance-metadata-service-imds-best-practices/)
-
 
 ### Cyber Security in Healthcare
 
@@ -94,20 +82,17 @@ Given the times we live in; there has been a big focus over the last few months 
 
 [COVID-19 Vaccine Cyberattacks Steal Credentials, Spread Zebrocy Malware](https://threatpost.com/covid-19-vaccine-cyberattacks-credentials-zebrocy/162072/)
 
-
 ### 1,000,000,000,000 USD lost to Cyber Attacks in 2020
 
 Security News points out the cost of cyber attacks this year is a huge number; yet companies are often poorly prepared.
 
 [$1 trillion lost to cybercrime in 2020, yet companies remain ill-prepared | SC Media](https://www.scmagazine.com/home/security-news/cybercrime/1-trillion-lost-to-cybercrime-in-2020-yet-companies-remain-ill-prepared/)
 
-
 ### SANS Breaks down qbot
 
 Once again SANS have given us a great brekdown of how Qakbot/Qbot works, I really enjoy the deeply technical articles SANS posts:
 
 [InfoSec Handlers Diary Blog](https://isc.sans.edu/diary/rss/26862)
-
 
 ### PLEASE_READ_ME Reaches a Grim Milestone
 
