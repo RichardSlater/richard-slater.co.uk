@@ -19,7 +19,6 @@ This is quite a pragmatic stance on using Media Queries for the mobile platform 
 
 Kayla Knight goes into depth into the techniques and technologies that front end web developers have at their hands. There is a lot to take in in this article, and some great examples of responsive web design out in the wild. [Further](http://adactio.com/journal/1699/) [examples](http://adactio.com/journal/1696/) and discussion can be found on Adactio.
 
-
 ## Conclusion
 
 Not being a "Front End" developer, I may never have to put any of this into practice however now I know more than when I started I can follow along when the design team talks about responsive design. If you know of any other resources or articles, please post them in the comments for me to read. If I find them useful I will update this post.
