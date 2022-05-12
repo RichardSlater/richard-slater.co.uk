@@ -10,6 +10,7 @@ images:
  - "images/1.jpg"
 aliases:
     - "/the-need-for-beyondcorp-type-organisations-threat-models-and-breaches-2020-week-44-461281298542"
+tags: ['Information Security', 'Cybersecurity', 'Strategy']
 ---
 
 ![image](images/1.jpg)

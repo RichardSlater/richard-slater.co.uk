@@ -10,6 +10,7 @@ images:
  - "images/1.jpg"
 aliases:
     - "/sooty-the-security-operations-centre-client-e985465f1035"
+tags: ['Security Operations', 'Information Security', 'Cybersecurity']
 ---
 
 ![image](images/1.jpg)

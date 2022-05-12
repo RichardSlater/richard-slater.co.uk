@@ -10,6 +10,7 @@ images:
  - "images/1.png"
 aliases:
  - "/managing-and-mitigating-cve-2020-16898-bad-neighbour-ping-of-death-4a42a7fb30d0"
+tags: ['Information Security', 'CyberSecurity', 'CVE-2020-16909']
 ---
 
 ![image](images/1.png)

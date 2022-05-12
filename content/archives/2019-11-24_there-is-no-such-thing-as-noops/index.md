@@ -10,6 +10,7 @@ images:
  - "images/1.jpg"
 aliases:
     - "/there-is-no-such-thing-as-noops-a8f18df1d953"
+tags: ['DevOps', 'NoOps']
 ---
 
 ![image](images/1.jpg)
@@ -35,16 +36,16 @@ The other issue with single-word answers is that it kills the conversation. Your
 
 Instead, when someone asks me if we “do DevOps”, I try and explain the principles we follow:
 
-*   Infrastructure as Code using Terraform to automate the creation of environments,
-*   Configuration as Code using Skaffold to reduce human error and drift,
-*   Continuous Deployment to deliver value.
+* Infrastructure as Code using Terraform to automate the creation of environments,
+* Configuration as Code using Skaffold to reduce human error and drift,
+* Continuous Deployment to deliver value.
 
 I also sometimes explain that we don’t do everything. As a consultant, most clients don’t expect to pay consultancy rates to operate what I build in production. My advice to teams is to make it like you are going to be on call 24/7. While this doesn’t provide the same motivation and create the same conditions as “you build it, you run it”. Empathising with future operators provide some motivation in the right direction.
 
 Intellectual honesty and willingness to open yourself up to criticism stimulates conversation and fosters trust. You open up your book and show the writing on the page, rather than pointing at the “DevOps Manual” on the bookshelf. Doing this, you create an environment that encourages discussion and cross-pollination of ideas rather than hiding behind an assumption.
 
-Iwill finish this article with two questions:
+I will finish this article with two questions:
 
-1.  Next time someone asks you how their company “does infrastructure” or “operates in production”. Will you give the stock response, or will you explain what you do?
+1. Next time someone asks you how their company “does infrastructure” or “operates in production”. Will you give the stock response, or will you explain what you do?
 
-2.  If you do NoOps, would you be willing to write a Medium article explaining what that practice means to you? Open your book, and I guarantee that we learn something from the experience
+2. If you do NoOps, would you be willing to write a Medium article explaining what that practice means to you? Open your book, and I guarantee that we learn something from the experience

@@ -10,6 +10,7 @@ images:
  - "images/1.jpg"
 aliases:
  - "/privacy-vs-the-government-trickbot-disrupted-and-more-2020-week-42-47264c01a2c8"
+tags: ['Privacy', 'Information Security', 'Cybersecurity']
 ---
 
 ![image](images/1.jpg)

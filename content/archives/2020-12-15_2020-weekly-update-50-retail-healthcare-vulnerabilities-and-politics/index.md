@@ -10,6 +10,7 @@ images:
  - "images/1.jpg"
 aliases:
     - "/2020-weekly-update-50-retail-healthcare-vulnerabilities-and-politics-ecaba994e565"
+tags: ['Weekly Update', 'Information Security', 'Cybersecurity']
 ---
 
 ![image](images/1.jpg)

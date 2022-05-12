@@ -10,6 +10,7 @@ images:
  - "images/1.jpg"
 aliases:
     - "/counter-strike-global-offensive-settings-b89dfd143f1d"
+tags: ['Weekly Update', 'Information Security', 'Cybersecurity']
 ---
 
 ![image](images/1.jpg)
