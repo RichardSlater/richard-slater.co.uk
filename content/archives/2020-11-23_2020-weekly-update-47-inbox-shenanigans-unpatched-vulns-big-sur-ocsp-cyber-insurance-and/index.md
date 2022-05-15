@@ -162,7 +162,7 @@ Unless your chosen career is armed robber, would wouldn’t think that you could
 
 ## New AWS Network Firewall uses Suricata
 
-The new [AWS Network Firewall] (https://aws.amazon.com/blogs/aws/aws-network-firewall-new-managed-firewall-service-in-vpc/)product appears to be based around Suricata, the same Network Intrusion Detection/Presentation System used in Ubiquiti’s range of [Security Gateways (USGs)](https://www.ui.com/unifi-routing/usg/)) this is great news as many security researchers will publish Suricata based rulesets when they find network level vulnerabilities. The really nice thing about this is it enables policy as code, rather than relying on detection rulesets from vendors as Zip files.
+The new [AWS Network Firewall] (https://aws.amazon.com/blogs/aws/aws-network-firewall-new-managed-firewall-service-in-vpc/) product appears to be based around Suricata, the same Network Intrusion Detection/Presentation System used in Ubiquiti’s range of [Security Gateways (USGs)](https://www.ui.com/unifi-routing/usg/)) this is great news as many security researchers will publish Suricata based rulesets when they find network level vulnerabilities. The really nice thing about this is it enables policy as code, rather than relying on detection rulesets from vendors as Zip files.
 
 - [AWS includes open-source Suricata for stateful inspection with Network Firewall service](https://www.theregister.com/2020/11/19/aws_adopts_open_source_suricata/)
 

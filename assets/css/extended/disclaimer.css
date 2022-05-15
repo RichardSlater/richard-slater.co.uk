@@ -1,0 +1,11 @@
+aside.disclaimer {
+    background-color: var(--code-bg);
+    padding: 1em !important;
+    margin-bottom: 1em;
+    padding-inline-start: var(--radius);
+    overflow-x: auto;
+    border-radius: var(--radius);
+    background: var(--code-bg);
+    border: 1px solid var(--border);
+    font-size: small;
+}
