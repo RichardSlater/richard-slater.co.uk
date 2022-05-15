@@ -16,6 +16,8 @@ tags: ['Weekly Update', 'Information Security', 'Cybersecurity']
 ![image](images/1.jpg)
 Photo by Daniel Stub on [Unsplash](https://unsplash.com?utm_source=medium&amp;utm_medium=referral)
 
+{{< disclosure >}}
+
 ## Mouse
 
 I bought a {{< amazon-affiliate-link asin="B081QXJLDN" text="Razer Basilisk V2" >}} when it was on Cyber Weekend deals on Amazon; pretty good for fairly decent mouse, I see plenty of people using [Zowie Mice](https://zowie.benq.eu/) which either means they are sponsored by BenQ/Zowie or they are really the best mice for CS:GO — I’ll leave it to you to decide.
