@@ -14,12 +14,14 @@ aliases:
     - "/journey-to-google-certified-professional-cloud-architect-22218b93066e"
 ---
 
+{{< disclosure >}}
+
 ![image](images/1.jpg)
 Photo by [Jonathan Daniels](https://unsplash.com/@dear_jondog?utm_source=medium&amp;utm_medium=referral) on [Unsplash](https://unsplash.com?utm_source=medium&amp;utm_medium=referral)
 
 I took and passed my [Google Certified Professional Cloud Architect](https://cloud.google.com/certification/guides/professional-cloud-architect/) exam in September; this was an achievement for me, not because I have not held these types of certifications before, but because I have **next to no Google Cloud experience**. The majority of my career has been based within the Azure Cloud with a little bit of AWS here and there, so starting my move into Google by taking an exam was _not_ the path of least resistance.
 
-I wanted to share some of the resources that I used to pass this exam so that everyone who follows me learns from my experiences and perhaps avoids some of the mistakes I made.
+I wanted to share some of the resources I used to pass this exam so that everyone who follows me learns from my experiences and perhaps avoids some of my mistakes.
 
 First off, this exam is savage; the pass mark is somewhere around ~80% as opposed to other professional bodies and cloud platforms:
 
@@ -72,12 +74,10 @@ Seven-week study plan for the Google Certified Professional Cloud Architect
 
 ### Books
 
-* Read [Kubernetes up and Running](https://amzn.to/2l7XjBc) by Brendan Burns, Joe Beda, and Kelsey Hightower
-* Read [The Kubernetes Book](https://amzn.to/2l2KLuH) by Nigel Poulton and Pushkar Joglekar
-* Read [Site Reliability Engineering](https://amzn.to/2lFzX6a) by Betsy Beyer, Chris Jones, Jennifer Petoff and Niall Richard Murphy
-* Read [Site Reliability Workbook](https://amzn.to/2pX8wqK) by Betsy Beyer, Niall Richard Murphy, David K. Rensin, Kent Kawahara and Stephen Thorne
-
-_Note: the above Amazon.co.uk links are tied to my Amazon Affiliate account if you don’t want to use them I’ve included the authors to make searching for the books easier._
+* Read {{< amazon-affiliate-link asin="1491935677" text="Kubernetes up and Running" >}} by Brendan Burns, Joe Beda, and Kelsey Hightower
+* Read {{< amazon-affiliate-link asin="1521823634" text="The Kubernetes Book" >}} by Nigel Poulton and Pushkar Joglekar
+* Read {{< amazon-affiliate-link asin="149192912X" text="Site Reliability Engineering" >}} by Betsy Beyer, Chris Jones, Jennifer Petoff and Niall Richard Murphy
+* Read {{< amazon-affiliate-link asin="B07FWFPMYG" text="Site Reliability Workbook" >}} by Betsy Beyer, Niall Richard Murphy, David K. Rensin, Kent Kawahara and Stephen Thorne
 
 ### Exam Guide and Case Studies
 
@@ -91,7 +91,7 @@ Watch every single video on the [Google Cloud Minute Playlist](https://www.youtu
 
 ### Qwiklabs
 
-Do as many of the quests as you can manage; repetition helps you remember the fine details, such as the command lines required to do something. 10% of my questions required remembering the commands used to do something. You can get free credits by following Qwiklabs on [LinkedIn](https://www.linkedin.com/company/qwiklabs-inc-/) and [Twitter](https://twitter.com/qwiklabs), and also [here on](https://medium.com/@sathishvj/qwiklabs-free-codes-gcp-and-aws-e40f3855ffdb) Medium](https://medium.com/@sathishvj/qwiklabs-free-codes-gcp-and-aws-e40f3855ffdb).
+Do as many of the quests as you can manage; repetition helps you remember the fine details, such as the command lines required to do something. 10% of my questions required remembering the commands used to do something. You can get free credits by following Qwiklabs on [LinkedIn](https://www.linkedin.com/company/qwiklabs-inc-/) and [Twitter](https://twitter.com/qwiklabs), and also [here on](https://medium.com/@sathishvj/qwiklabs-free-codes-gcp-and-aws-e40f3855ffdb)
 
 * [GCP Essentials](https://www.qwiklabs.com/quests/23)
 * [Baseline: Infrastructure](https://www.qwiklabs.com/quests/33)

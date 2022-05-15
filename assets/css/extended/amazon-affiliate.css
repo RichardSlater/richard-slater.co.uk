@@ -1,0 +1,25 @@
+a.amazon-link {
+    box-shadow: none;
+} 
+
+.alignright {
+    float: right;
+    clear: both;
+    padding-left: 1em;
+}
+
+.alignleft {
+    float: left;
+    clear: both;
+    padding-right: 1em;
+}
+
+.aligncenter {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.aligncenter img {
+    margin-top: 0;
+}

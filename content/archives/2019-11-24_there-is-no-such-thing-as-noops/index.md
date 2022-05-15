@@ -13,6 +13,8 @@ aliases:
 tags: ['DevOps', 'NoOps']
 ---
 
+{{< disclosure >}}
+
 ![image](images/1.jpg)
 Photo by [Carl Cerstrand](https://unsplash.com/@cerstrand?utm_source=medium&amp;utm_medium=referral) on [Unsplash](https://unsplash.com?utm_source=medium&amp;utm_medium=referral)
 
@@ -20,7 +22,7 @@ Apologies for the click-bait title, I do stand by my statement though. There is 
 
 > If you go to a DevOps Conference and ask ten people what DevOps is you will get twelve answers.
 
-It’s not because people haven’t tried to codify DevOps and make it something more concrete. Look to the work of Gene Kim ([The Phoenix Project](https://www.amazon.co.uk/Phoenix-Project-DevOps-Helping-Business-ebook/dp/B078Y98RG8/)), Nicole Forsgren ([Accelerate](https://www.amazon.co.uk/Accelerate-Software-Performing-Technology-Organizations-ebook/dp/B07B9F83WM/)) and the Google SRE team ([Site Reliability Engineering](https://www.amazon.co.uk/Site-Reliability-Engineering-Production-Systems-ebook/dp/B01DCPXKZ6)). These authors have done a fantastic job of describing the movement they espouse.
+It’s not because people haven’t tried to codify DevOps and make it something more concrete. Look to the work of Gene Kim ({{< amazon-affiliate-link asin="B078Y98RG8" text="The Phoenix Project" >}}), Nicole Forsgren ({{< amazon-affiliate-link asin="B07B9F83WM" text="Accelerate" >}}) and the Google SRE team ({{< amazon-affiliate-link asin="B01DCPXKZ6" text="Site Reliability Engineering" >}}). These authors have done a fantastic job of describing the movement they espouse.
 
 The problem is that each of these “movements” is not a template for 100% success, nor should they be. Organisations are messy, complicated, confusing, different and ever-changing. Complex organisations are fine; it’s great actually because it promotes diversity.
 

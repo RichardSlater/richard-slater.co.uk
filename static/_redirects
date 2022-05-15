@@ -16,6 +16,8 @@
 /archives/2009/10/23/change-your-mtu-under-vista-or-windows-7/ /archives/2009/10/23/change-your-mtu-under-vista-windows-7-or-windows-8/ 301
 /archives/2008/08/02/center-parcs-longleat-forrest/ /archives/2008/08/02/center-parcs-longleat/        301
 /archives/2013/03/10/elevated-command-prompt-on-windows-8/ /archives/2013/03/12/elevated-command-prompt-on-windows-8/ 301
+/archives/2010/04/01/asp-net-3-5-gridview-rowcommand-event-fired-twice/ /archives/2010/04/01/asp.net-3.5-gridview-rowcommand-event-fired-twice/ 301
+/archives/2009/10/26/card-reader-on-acer-aspire-5100-serie-under-windows-7/ /archives/2009/10/26/card-reader-on-acer-aspire-5100-series-under-windows-7/ 301
 
 # Merge Tags and Categories
 /archives/tag/*         /archives/categories/:splat                                                    301
