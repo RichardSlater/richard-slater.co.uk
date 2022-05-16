@@ -8,6 +8,11 @@
     Cross-Origin-Resource-Policy = "same-origin"
 
 [[headers]]
+  for = "/*.webmanifest"
+  [headers.values]
+    Content-Type = "application/manifest+json; charset=utf-8"
+
+[[headers]]
   for = "/*.ico"
   [headers.values]
     Content-Type = "image/x-icon"
