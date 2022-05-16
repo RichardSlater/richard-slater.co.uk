@@ -31,13 +31,13 @@ menu:
       name: Archive
       url: "/archives/"
       weight: 20
-    - identifier: search
-      name: Search
-      url: "/search/"
-      weight: 30
     - identifier: support-me
       name: Support Me
       url: "/support-me/"
+      weight: 30
+    - identifier: search
+      name: 🔍
+      url: "/search/"
       weight: 40
 
 params:
