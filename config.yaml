@@ -24,7 +24,7 @@ outputs:
 menu:
   main:
     - identifier: photography
-      name: Photography
+      name: Photos
       url: "https://portfolio.richard-slater.co.uk/"
       weight: 10
     - identifier: archive
