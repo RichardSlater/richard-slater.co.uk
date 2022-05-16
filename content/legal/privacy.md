@@ -7,7 +7,7 @@ On Richard Slater's website, accessible from <https://www.richard-slater.co.uk>,
 
 Our Privacy Policy was last updated on {{< lastmodified >}}.
 
-If you have additional questions or require more information about our Privacy Policy, do not hesitate to contact me on [Twitter, [Keybase](https://keybase.io/richardslater), or [Discord](https://discord.com/invite/6563TkwM).
+If you have additional questions or require more information about our Privacy Policy, do not hesitate to contact me on [Twitter](https://twitter.com/richardslater), [Keybase](https://keybase.io/richardslater), or [Discord](https://discord.com/invite/6563TkwM).
 
 This Privacy Policy applies only to our online activities and is valid for visitors to Our website regarding the information that we collect on Our website. This policy does not apply to any information collected offline or via channels other than the website. Our Privacy Policy was created with the help of the [Free Privacy Policy Generator](https://www.generateprivacypolicy.com/).
 
