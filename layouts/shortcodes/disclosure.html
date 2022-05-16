@@ -1,3 +1,9 @@
+
 <aside class="disclaimer">
-    <b>Disclosure</b>: This page contains Amazon Affiliate links; as an Amazon Associate I earn from qualifying purchases. Further information can be found in my <a href="/legal/disclaimer/">disclaimer</a> and <a href="/legal/privacy/">privacy policy</a>.
+{{ with .Get "custom" }}
+    <b>Disclosure</b>: {{ . }} 
+{{ else }}
+    <b>Disclosure</b>: This page contains Amazon Affiliate links; as an Amazon Associate I earn from qualifying purchases.
+{{ end }}
+Further information can be found in my <a href="/legal/disclaimer/">disclaimer</a> and <a href="/legal/privacy/">privacy policy</a>.
 </aside>
