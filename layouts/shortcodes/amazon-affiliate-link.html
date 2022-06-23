@@ -5,6 +5,4 @@
     {{ $resovedASIN = $.Page.Params.asin }}
 {{ end }}
 
-<a href='http://www.amazon.co.uk/dp/{{ $resovedASIN }}/?tag={{ $.Page.Site.Params.amazonAffiliateLinks.UK }}'>
-    {{ .Get "text" }}
-</a>
+<a href='http://www.amazon.co.uk/dp/{{ $resovedASIN }}/?tag={{ $.Page.Site.Params.amazonAffiliateLinks.UK }}'>{{ .Get "text" }}</a>
