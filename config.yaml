@@ -27,18 +27,22 @@ menu:
       name: Photography
       url: "https://portfolio.richard-slater.co.uk/"
       weight: 10
+    - identifier: reviews
+      name: Reviews
+      url: "/reviews/"
+      weight: 20
     - identifier: archive
       name: Archive
       url: "/archives/"
-      weight: 20
+      weight: 30
     - identifier: search
       name: Search
       url: "/search/"
-      weight: 30
+      weight: 40
     - identifier: support-me
       name: Support Me
       url: "/support-me/"
-      weight: 40
+      weight: 50
 
 params:
   amazonAffiliateLinks:
