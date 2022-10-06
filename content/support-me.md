@@ -27,5 +27,6 @@ It's okay if you can't contribute money; I have some referral links that would h
   - We get £5 each when you sign up and start using Monzo with [my referral link](https://join.monzo.com/c/kpq6hgp).
   - We both get £20 if you use my [referral link](https://www.chase.co.uk/gb/en/download/?code=NfRIRwGW.&shortlink=refer&pid=raf&af_channel=raf) to create a new Chase UK account.
   - Revolut has fantastic options for international spending; they will pay me if you use my [referral link](https://www.revolut.com/referral/richar1o5!MAY1-22-AR).
+- Sign-up to [EtherMail: ncrypted wallet-to-wallet communication for Web3](https://ethermail.io/?afid=633eb6ef81bf7c7fdff55939).
 
-Alternatively, follow me on [any of my social channels](http://localhost:1313/) from the home page.
+Alternatively, follow me on [any of my social channels](https://www.richard-slater.co.uk/) from the home page.
