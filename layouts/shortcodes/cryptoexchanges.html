@@ -4,7 +4,7 @@
       <th>Description</td>
   </tr>
 {{ range  $key, $value := $.Site.Data.cryptoexchanges }}
-   {{ if or (eq $value.draft true) (eq hugo.IsProduction false) }}
+   {{ if or (eq $value.draft false) (eq hugo.IsProduction false) }}
       {{ partial "cryptoexchange.html" $value }}
    {{ end }}
 {{ end }}
