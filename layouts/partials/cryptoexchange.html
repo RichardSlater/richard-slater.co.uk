@@ -1,0 +1,22 @@
+
+<tr>
+    <td class="cryptoex-logo">
+        <h2><a href="{{ .Referral }}">{{ .Name }}</a></h2>
+        <a href="{{ .Referral }}">
+            <img src="/img/cryptoexchanges/{{ .Logo }}" />
+        </a>
+        <p class="uri"><span>https://<b>{{ .Uri }}</b></span></p>
+    </td>
+    <td>
+        <p>{{ .Description }}</p>
+        <p>
+            Trading Security:
+            <ul>
+                {{ range .Security }}
+                    <li>{{ . }}</li>
+                {{ end }}
+            </ul>
+        </p>
+        <p><a href="{{ .Referral }}">Sign up to {{ .Name }} Now</a></p>
+    </td>
+ </tr>

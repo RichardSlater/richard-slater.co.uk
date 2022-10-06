@@ -1,0 +1,11 @@
+Name: Coinbase
+Logo: coinbase-logo.png
+Uri: www.coinbase.com
+Referral: https://coinbase.com/join/a8qwqo
+Description: Coinbase can't quite claim to be the largest crypto exchange, however it is one of the oldest still available. Founded in 2012 coinbase provides it's services to most of the world and has advanced trading options. Fees are rather high compared to Binance and KuCoin.
+Security:
+ - Yubikey
+ - Google Authenticator
+ - SMS 2nd Factor
+ - Email Notifications on Withdraw
+draft: false

@@ -1,0 +1,11 @@
+Name: KuCoin
+Logo: kucoin-logo.png
+Uri: www.kucoin.com
+Referral: https://www.kucoin.com/ucenter/signup?rcode=rPQ1L5B
+Description: KuCoin has been around since 2017 and offers trading fees rivaling Binance, however it has very limited security settings and purchasing crypto typically requires a second round of KYC.
+Security:
+ - Google Authenticator
+ - SMS 2nd Factor
+ - Trading Pin
+ - Withdrawal Pin
+draft: false
