@@ -14,6 +14,18 @@ You can contribute directly to me with either Ko-Fi or Patreon.
 - Could you buy me a coffee [with Ko-Fi?](https://ko-fi.com/richardslater)
 - Would you be willing to contribute monthly [with Patreon?](https://www.patreon.com/richardslater)
 
+### Cryptocurrency
+
+I'm not a bit invester in Cryptocurrency, but it's interesting to have a small amount to experiement with Solidity, Smart Contracts and DeFi. If you want to send me a small amount on your prefered network it is greatly appreciated:
+
+| Network             | Accepted Tokens   | Address                                      |
+|---------------------|-------------------|----------------------------------------------|
+| Ethereum            | ETH, ERC-20       | `0x50251A17b13Ac21d91efA5d1fdAF820d083254aE` |
+| Binance Smart Chain | BNB, BUSD, BEP-20 | `0x50251A17b13Ac21d91efA5d1fdAF820d083254aE` |
+| Polygon             | MATIC, ERC-20     | `0x50251A17b13Ac21d91efA5d1fdAF820d083254aE` |
+| Avalanche C-Chain   | AVAX, ERC-20      | `0x50251A17b13Ac21d91efA5d1fdAF820d083254aE` |
+| Hive                | HIVE, HBD         | richardslater                                |
+
 ## Other ways to support me
 
 It's okay if you can't contribute money; I have some referral links that would help me in other ways:
