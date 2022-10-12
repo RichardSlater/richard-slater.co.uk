@@ -1,0 +1,4 @@
+This is a Brave Rewards publisher verification file.
+
+Domain: richard-slater.co.uk
+Token: 36c10d7c8893e1c1ee02d7c010d23adab99461e9b737595204c4c1522c1bfaef
