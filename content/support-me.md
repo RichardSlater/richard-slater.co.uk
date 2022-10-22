@@ -18,13 +18,16 @@ You can contribute directly to me with either Ko-Fi or Patreon.
 
 I'm not a bit invester in Cryptocurrency, but it's interesting to have a small amount to experiement with Solidity, Smart Contracts and DeFi. If you want to send me a small amount on your prefered network it is greatly appreciated:
 
-| Network             | Accepted Tokens   | Address                                      |
-|---------------------|-------------------|----------------------------------------------|
-| Ethereum            | ETH, ERC-20       | `0x50251A17b13Ac21d91efA5d1fdAF820d083254aE` |
-| Binance Smart Chain | BNB, BUSD, BEP-20 | `0x50251A17b13Ac21d91efA5d1fdAF820d083254aE` |
-| Polygon             | MATIC, ERC-20     | `0x50251A17b13Ac21d91efA5d1fdAF820d083254aE` |
-| Avalanche C-Chain   | AVAX, ERC-20      | `0x50251A17b13Ac21d91efA5d1fdAF820d083254aE` |
-| Hive                | HIVE, HBD         | richardslater                                |
+| Network             | Accepted Tokens   | Address                                                    |
+|---------------------|-------------------|------------------------------------------------------------|
+| Bitcoin             | BTC               | `bc1qh87qkk243xckr8ze37plqjgzgnfsu895r98dqr`               |
+| Ethereum            | ETH, ERC-20       | `0x2E250Ca1db2a21AD6fE0320b0D19393C8013b0Ce`               |
+| Binance Smart Chain | BNB, BUSD, BEP-20 | `0x2E250Ca1db2a21AD6fE0320b0D19393C8013b0Ce`               |
+| Polygon             | MATIC, ERC-20     | `0x2E250Ca1db2a21AD6fE0320b0D19393C8013b0Ce`               |
+| Hive                | HIVE, HBD         | richardslater                                              |
+| Dogecoin            | Doge              | `DGDCNrDpZdGFXck7KB2LHyvVVz5oRQbsfR`                       |
+| Litecoin            | LTC               | `ltc1qsvts0v8x2l8x88tuw8fmrnjuknt8qq2l099k40`              |
+| Stellar             | XLM               | `GBLCV3M5HVC4XO3J2GQABEAVKAHNEFS5DWLFXGNLKFTI4USGENWZ7YTR` |
 
 ## Other ways to support me
 
