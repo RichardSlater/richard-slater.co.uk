@@ -1,10 +1,10 @@
 ---
 title: 'Using GPG keys stored on a YubiKey for SSH Authentication on Windows and Windows Subsystem for Linux'
 date: 2024-08-08T19:54:12+01:00
-draft: false
+draft: False
 summary: 'Implementing GPG Authentication and Signing for GitHub repositories using a YubiKey hardware token.'
 tags: ['GPG', 'GitHub', 'SSH', 'RSA', 'Multi-Factor Authentication', 'Security', 'Git', 'Software Development', 'DevSecOps'] 
-mermaid: true
+mermaid: True
 ---
 
 ## Introduction
