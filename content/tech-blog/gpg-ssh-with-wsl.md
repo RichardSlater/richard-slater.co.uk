@@ -4,6 +4,7 @@ date: 2024-08-08T19:54:12+01:00
 draft: false
 summary: 'Implementing GPG Authentication and Signing for GitHub repositories using a YubiKey hardware token.'
 tags: ['GPG', 'GitHub', 'SSH', 'RSA', 'Multi-Factor Authentication', 'Security', 'Git', 'Software Development', 'DevSecOps'] 
+mermaid: true
 ---
 
 ## Introduction
