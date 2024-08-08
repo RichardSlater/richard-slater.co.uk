@@ -89,5 +89,5 @@
     Cross-Origin-Opener-Policy = "same-origin; report-to=default"
 
 [build.environment]
-  HUGO_VERSION = "0.124.0"
+  HUGO_VERSION = "0.131.0"
   NODE_VERSION = "22"
