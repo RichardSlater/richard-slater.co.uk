@@ -2,7 +2,7 @@ baseURL: /
 languageCode: en-gb
 title: Richard Slater
 theme: papermod
-copyright: "[Cookie and Privacy Policy](/legal/privacy/) | [Disclaimer](/legal/disclaimer/) | ©2022 Richard Slater, All Rights Reserved | "
+copyright: "[Cookie and Privacy Policy](/legal/privacy/) | [Disclaimer](/legal/disclaimer/) | ©2024 Richard Slater, All Rights Reserved | "
 permalinks:
   archives: /archives/:year/:month/:day/:slug/
   tags: /archives/category/:slug/
