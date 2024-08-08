@@ -1,5 +1,5 @@
 ---
-title: 'Long time no blog...'
+title: 'Long time no blog'
 date: Sat, 10 Oct 2009 12:21:02 +0000
 draft: false
 tags: ['Blog', 'Diary', 'Driving', 'EVE Online', 'Programming']
