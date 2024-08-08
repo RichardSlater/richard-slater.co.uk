@@ -31,18 +31,22 @@ menu:
       name: Reviews
       url: "/reviews/"
       weight: 20
+    - identifier: tech
+      name: Tech Blog
+      url: "/tech-blog/"
+      weight: 30
     - identifier: archive
       name: Archive
       url: "/archives/"
-      weight: 30
+      weight: 40
     - identifier: search
       name: Search
       url: "/search/"
-      weight: 40
+      weight: 50
     - identifier: support-me
       name: Support Me
       url: "/support-me/"
-      weight: 50
+      weight: 60
 
 params:
   amazonAffiliateLinks:
