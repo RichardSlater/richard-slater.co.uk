@@ -55,7 +55,7 @@ menu:
 params:
   amazonAffiliateLinks:
     UK: rds17home-21
-
+  social: true
   ShowShareButtons: true
   ShowReadingTime: true
   ShowBreadCrumbs: true
