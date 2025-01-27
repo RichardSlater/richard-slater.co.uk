@@ -74,20 +74,23 @@ It's not a huge change, but it's an additional control over the security of my r
 - [wsl-ssh-pageant](https://github.com/benpye/wsl-ssh-pageant) works in a very similar way to npiperelay, however it is an unnecessary step with modern versions of OpenSSH for Windows.
 - [Native FIDO2/WebAuthn support in OpenSSH](https://github.com/PowerShell/openssh-portable/pull/541) this is an option, I didn't try this because I already have a GPG key that I use on a day-to-day basis, YubiKey support via FIDO2 was introduced into [OpenSSH in 8.2](https://blog.snapdragon.cc/2020/02/23/direct-fido2-u2f-support-in-openssh-8-2-on-macos/).
 - I have in the past used separate keys for WSL, i.e. a different SSH and GPG key that is only used from within WSL.
+
 ## One-time Setup
 
 There is a separate process between Windows and WSL, you can skip the WSL if you only need GPG SSH Authentication from Windows.
+
 ### Prerequisites
 
 I used the following software and versions:
 
 - Windows 11 (Version 23H2):
-    - GnuPG 2.4+,
-    - Microsoft's OpenSSH 8.6+,
-    - Some kind of editor that write files ending in LF format, CRLF will not work, I used Visual Studio Code,
+  - GnuPG 2.4+,
+  - Microsoft's OpenSSH 8.6+,
+  - Some kind of editor that write files ending in LF format, CRLF will not work, I used Visual Studio Code,
 - Ubuntu WSL, other distros will likely work as well, although Ubuntu tends to be the best supported distro for WSL.
 
-You must have the relevant GPG keys, I strongly recommend creating a master certify key and then a subkey for each of designated purposes: encryption, signing and authentication. You can use [DrDuh's YubiKey Guide](https://github.com/drduh/YubiKey-Guide) 
+You must have the relevant GPG keys, I strongly recommend creating a master certify key and then a subkey for each of designated purposes: encryption, signing and authentication. You can use [DrDuh's YubiKey Guide](https://github.com/drduh/YubiKey-Guide)
+
 ### Windows Setup
 
 1. Stop and Disable the "OpenSSH Authentication Agent" using `services.msc` or with PowerShell:
@@ -111,14 +114,14 @@ You must have the relevant GPG keys, I strongly recommend creating a master cert
     enable-win32-openssh-support
     
     ```
-    
+
 1. Find `gpg.conf` in your GnuPG configuration folder, and add the following lines of config, again ensure that it's LF not CRLF line endings:
 
     ```conf title:"%APPDATA%/gnupg/gpg.conf"
     use-agent
     
     ```
-    
+
 1. Find the GPG Keygrip of your Authentication Key:
 
     ```bash
@@ -147,17 +150,18 @@ You must have the relevant GPG keys, I strongly recommend creating a master cert
     [Environment]::SetEnvironmentVariable("SSH_AUTH_SOCK", "\\.\pipe\openssh-ssh-agent", [System.EnvironmentVariableTarget]::User)
     ```
 
-1. Update your PowerShell profile and add the following line to start the GPG Agent when you launch a terminal: 
-    
+1. Update your PowerShell profile and add the following line to start the GPG Agent when you launch a terminal:
+
     ```bash
     gpg-connect-agent /bye
     ```
 
 1. Use `ssh-add -L` to get your public key:
 
-   ```
+   ```text
    ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAACAQDB7n7NyXkm6...
    ```
+
 1. Now go to [Github Keys](https://github.com/settings/keys) and add the public key as a SSH Key.
 
 1. Open a new terminal to ensure that the environment variable is updated, then issue the following command, expect a pin entry dialogue and after a few seconds you should get a connection to GitHub.
@@ -170,20 +174,16 @@ You must have the relevant GPG keys, I strongly recommend creating a master cert
     ```
 
 1. If this doesn't work check the output of `ssh-add -L` it should show a `ssh-rsa` key:
-    
+
     ```bash
     # ssh-add -L
     ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAACAQDB7n7NyXkm6OucNqS9ExJPUJk/+jhcIxTJD3RnEt2IywDvHWUOBBEcfpOxprj54UsJDrfAslIvhFZkjEi+3Tgow1qC7+HVS3GfNu1YCP+MmTOnnEXgAhtaM7LTVFgt9QYEZeSpgrIIaKSlb515ln4Ghy+Jehbs06V6TcJYG/qIQd1RXN40O13VEyXmNAVRSf9ra7Emfg1OLzu7wabhxLqeLGBJ2cf0QKf0+ip+jYqbq/D2ZsCBYmGgQcKiopuCW7a51zzu/Df6G+SJS2yzWwZx1PjJ0yqUFWpuVDlRJi2sBbBTL1TUftMzRiZsyQPrS/eAlGLxzGjmvjzZ3pLZtD5xc6Qs7By/r/5Acxbp+2wn3fuo6lVmD5P54R0PsQyw7jrV7C7Zb7Cl7EuXZqW3Pm42aowq4skstTmdXsZZx0RkFvFaxDw5IFtC78E5Dwy/4pECLNXQ8stc6A5MKElGwHhcABK8IdUGf6R0lU4yEzknb7KhvERZRKEslQh3Jcn+7zScc5WBbjT3SMEdySWPMwreOpe1gnt+6MSf/8lpQCyBOP1Mr4/SSa95pJpWyRr1OSPi0KgOvSTVwppG6thcV1fRpGsDtpPB192KKrzInP3fxF0UOT3PhLgn7zZAlyGBAIel4m/zK0tqjL3kG2CNwnOkMrq5CTdK1JS7KnK4a/rxCw== cardno:11_073_070
     ```
 
 1. If all you need is support from within Windows then you are done, if you want to configure WSL then you will need a final step on Windows before switching over to WSL.
-1. Install `npiperelay.exe` using go install.
 
-    ```shell
-    go install github.com/jstarks/npiperelay@latest
-    ```
-    
 1. All being well this should install `npiperelay.exe` in `$env:USERPROFILE/go/bin` you will need to reference this from WSL, so check the path.
+
 ### WSL Setup
 
 1. Alias `gpg` on WSL to `C:\Program Files (x86)\GnuPG\bin\gpg.exe` on Windows:
@@ -218,46 +218,53 @@ I use these from my [dotfiles](https://github.com/RichardSlater/dotfiles) to ens
 
 1. Now configure [git to sign your commits](https://docs.github.com/en/authentication/managing-commit-signature-verification/telling-git-about-your-signing-key) specifically you will need to run the following commands:
 
-    ```
+    ```sh
     git config --global user.signingkey [YOUR KEY ID]
     git config --global commit.gpgsign true
     ```
 
 1. At this point you can test everything works:
     1. Create a new directory and change:
-        ```
+
+        ```sh
         mkdir gpg-test
         cd gpg-test
         ```
-    
+
     1. Initialize a new git repository with:
-        ```
+
+        ```sh
         git init
         ```
-    
+
     1. Create a file to commit:
-        ```
+
+        ```sh
         touch text.txt
         echo "test" >> test.txt
         ```
 
     1. Add the file to git:
-        ```
+
+        ```sh
         git add test.txt
         ```
 
     1. Commit your changes with`git commit`, this should prompt you for a commit message by opening up your `$EDITOR` and once that is saved and exited then prompt you for your YubiKey PIN and touch.
     1. Push the changes to the remote `git push origin HEAD` this should require you to touch your YubiKey (if touch is configured) to authenticate with GitHub.
 
-I've tested the testing flow in Visual Studio too, and that works flawlessly when launched from WSL with 
+I've tested the testing flow in Visual Studio too, and that works flawlessly when launched from WSL with
+
 ```shell
 code .
 ```
 
 If any of this doesn't work, then check out the troubleshooting next.
+
 ## Troubleshooting
 
 ### It works in Windows / PowerShell but doesn't work in WSL
+
 First, restart your shell, it's possible that something is cached given you have just messed about with executables in your path.
 
 This could be for a couple of reasons, potentially the `PATH` is misconfigured, run the following two commands:
@@ -275,7 +282,7 @@ which ssh-add
 which gpg
 ```
 
-If any of these are not coming from `/usr/local/bin` then you need to adjust your `PATH` appropriately. 
+If any of these are not coming from `/usr/local/bin` then you need to adjust your `PATH` appropriately.
 
 ### GPG Agent Crashes
 
@@ -289,16 +296,17 @@ If something isn't working I find it helpful to follow a basic troubleshooting w
 2. If you are using the Microsoft Terminal Services client or certain virtualization platforms (Hyper-V, VirtualBox, VMWare) it's possible they have installed USB Filters to enable USB devices to be "passed through" to virtual machines. Check the configuration to make sure running machines are not grabbing the YubiKey exclusively.
 3. Are the public keys available in your local key ring? You can [import them](https://github.com/drduh/YubiKey-Guide?tab=readme-ov-file#using-yubikey) if they are not. Sometimes it's necessary to relearn the card (`gpg-connect-agent "scd serialno" "learn --force" /bye¬`) if you have multiple YubiKeys.
 4. Are you able to authenticate with your key to GitHub with `ssh git@github.com`? If not check `ssh-add -L` the public key listed should also be listed under both SSH keys and GPG keys in your [GitHub Settings](https://github.com/settings/keys).
-5. When you commit a change to a Git repository, is it signed? You can check with `git log --show-signature` and looking for "Good signature" next to each commit. If they are not signed check Git is configured, `~/.gitconfig` should contain `gpgsign = true` and `signingkey = ` with your key ID.
+5. When you commit a change to a Git repository, is it signed? You can check with `git log --show-signature` and looking for "Good signature" next to each commit. If they are not signed check Git is configured, `~/.gitconfig` should contain `gpgsign = true` and `signingkey =` with your key ID.
 6. If you are able to complete the above operations from Windows then you "**should**" be able to complete them from WSL too, if not check that `/usr/local/bin` appears first in your `PATH` and change as required.
 7. If none of these help, check out the [Troubleshooting Guide](https://github.com/drduh/YubiKey-Guide?tab=readme-ov-file#troubleshooting) in DrDuh's YubiKey guide.
+
 ## References
 
 Beyond the links embedded in the document above the following pages provided invaluable reference material working out a process:
 
-1. Matus Novak (2020), _GPG + Git SSH Authentication and Signing on Windows 10_. [online] Gist. Available at: https://gist.github.com/matusnovak/302c7b003043849337f94518a71df777, [Accessed 8 Aug. 2024].
-2. opensource.com. (2019). _How to enable SSH access using a GPG key for authentication | Opensource.com_. [online] Available at: https://opensource.com/article/19/4/gpg-subkeys-ssh, [Accessed 8 Aug. 2024].
-3. PowerShell (2017). _Support GPG and smartcard users · Issue #827 · PowerShell/Win32-OpenSSH_. [online] GitHub. Available at: https://github.com/PowerShell/Win32-OpenSSH/issues/827 [Accessed 8 Aug. 2024].
-4. Justyn (2019). _Using a Yubikey for GPG in WSL (Windows Subsystem for Linux) on Windows 10_. [online] I Am Justyn. Available at: https://justyn.io/blog/using-a-yubikey-for-gpg-in-wsl-windows-subsystem-for-linux-on-windows-10/ [Accessed 8 Aug. 2024].
-6. Scott Hanselman (2018). _How to setup Signed Git Commits with a YubiKey NEO and GPG and Keybase on Windows_. [online] Available at: https://www.hanselman.com/blog/how-to-setup-signed-git-commits-with-a-yubikey-neo-and-gpg-and-keybase-on-windows [Accessed 8 Aug. 2024].
-7. Matthias Rampke (2023). _GPG signing with full gpg-agent support in WSL2: the easy way_. [online] Gist. Available at: https://gist.github.com/matthiasr/473072eeffe449459e3ccd0f5192afc7 [Accessed 8 Aug. 2024].
+1. Matus Novak (2020), _GPG + Git SSH Authentication and Signing on Windows 10_. [online] Gist. Available at: <https://gist.github.com/matusnovak/302c7b003043849337f94518a71df777>, [Accessed 8 Aug. 2024].
+2. opensource.com. (2019). _How to enable SSH access using a GPG key for authentication | Opensource.com_ [online] Available at: <https://opensource.com/article/19/4/gpg-subkeys-ssh>, [Accessed 8 Aug. 2024].
+3. PowerShell (2017). _Support GPG and smartcard users · Issue #827 · PowerShell/Win32-OpenSSH_. [online] GitHub. Available at: <https://github.com/PowerShell/Win32-OpenSSH/issues/827> [Accessed 8 Aug. 2024].
+4. Justyn (2019). _Using a Yubikey for GPG in WSL (Windows Subsystem for Linux) on Windows 10_. [online] I Am Justyn. Available at: <https://justyn.io/blog/using-a-yubikey-for-gpg-in-wsl-windows-subsystem-for-linux-on-windows-10/> [Accessed 8 Aug. 2024].
+5. Scott Hanselman (2018). _How to setup Signed Git Commits with a YubiKey NEO and GPG and Keybase on Windows_. [online] Available at: <https://www.hanselman.com/blog/how-to-setup-signed-git-commits-with-a-yubikey-neo-and-gpg-and-keybase-on-windows> [Accessed 8 Aug. 2024].
+6. Matthias Rampke (2023). _GPG signing with full gpg-agent support in WSL2: the easy way_. [online] Gist. Available at: <https://gist.github.com/matthiasr/473072eeffe449459e3ccd0f5192afc7> [Accessed 8 Aug. 2024].
