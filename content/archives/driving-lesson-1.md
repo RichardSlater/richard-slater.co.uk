@@ -6,9 +6,9 @@ draft: false
 tags: ['Diary', 'Driving', 'moving off', 'stopping']
 ---
 
-I had my first driving lesson today with [Kevin Tant](http://www.snaildrive.co.uk/), started off a little nervous however I got more relaxed as the lesson continued. I am going to try and write down what I learnt here to help me remember for the next lesson - please do not take this as official or instructional (in fact it may well be **TOTALLY WRONG!**) if you are learning to drive there are lots of excellent resources on Amazon and I honestly can't stress how important it has to have an Approved Driving Instructor.
+I had my first driving lesson today with Kevin Tant, started off a little nervous however I got more relaxed as the lesson continued. I am going to try and write down what I learnt here to help me remember for the next lesson - please do not take this as official or instructional (in fact it may well be **TOTALLY WRONG!**) if you are learning to drive there are lots of excellent resources on Amazon and I honestly can't stress how important it has to have an Approved Driving Instructor.
 
-I suppose this post is inspired to an extent by several other learner drivers such as [Sean Moore](http://www.therundown.co.uk/blogs/sean/) who have very kindly been sharing their experiences with the world.
+I suppose this post is inspired to an extent by several other learner drivers such as Sean Moore who have very kindly been sharing their experiences with the world.
 
 First I had to **check the doors**, driver's side was easy enough as you can see that it is flush with the side of the car, the passenger side can be done the same, then checked the **hand brake was secure** by pulling it up. **Adjusted the seat**, and in theory **adjusted the steering wheel** (if it was adjustable, which it wasn't). Next task was to adjust mirrors, and then finally **fastened my seat belt** (and checked anyone under 14).
 

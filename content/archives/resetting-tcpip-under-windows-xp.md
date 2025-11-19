@@ -5,4 +5,10 @@ draft: false
 tags: ['Netsh', 'Sys Admin', 'TCP/IP', 'WindowsXP']
 ---
 
-I have done this a couple of times at the request of BT and NTL engineers when internet connections haven't been working as expected: netsh int ip reset \[log\_file\_name\] Very useful if you a struggling to figure out why you can't even ping 127.0.0.1.
+I have done this a couple of times at the request of BT and NTL engineers when internet connections haven't been working as expected:
+
+```
+netsh int ip reset [log_file_name] 
+```
+
+Very useful if you a struggling to figure out why you can't even ping `127.0.0.1`.

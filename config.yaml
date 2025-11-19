@@ -7,49 +7,60 @@ permalinks:
   archives: /archives/:year/:month/:day/:slug/
   tags: /archives/category/:slug/
 
-params:
-    profileMode:
-        enabled: true
-        title: "Richard Slater"
-        subtitle: "Christian, Technologist, Consultant, Author and Leader"
-        imageUrl: "/profile/seasonal-profile-picture.png"
-        imageTitle: "Richard Slater's Profile Picture with Ukraine Flag as background"
-        imageWidth: 120
-        imageHeight: 120
-        buttons:
-          - name: Blog Archive
-            url: "/archives/"
-          - name: "Watch Digital Art on TikTok"
-            url: "https://www.tiktok.com/@richardslateruk"
-          - name: "Buy prints of my photographs"
-            url: "https://wirestock.io/richard.slater/portfolio"
-          - name: "Buy my NFTs now"
-            url: "https://opensea.io/collection/alien-arcologies"
+googleAnalytics: G-S9EH7VDT2S
 
-    socialIcons: # optional
-        - name: "Twitter"
-          url: "https://twitter.com/richardslater"
-        - name: "LinkedIn"
-          url: "https://www.linkedin.com/in/devopsrichard/"
-        - name: "YouTube"
-          url: "https://www.youtube.com/c/RichardSlaterUK"
-        - name: "Facebook"
-          url: "https://www.facebook.com/rdsuk"
-        - name: "Instagram"
-          url: "https://www.instagram.com/richardslater/"
-        - name: "Medium"
-          url: "https://medium.com/@richardslaterinthecloud"
-        - name: "Github"
-          url: "https://github.com/richardslater"
-        - name: "Discord"
-          url: "https://discord.gg/6563TkwM"
-        - name: "HackTheBox"
-          url: "https://app.hackthebox.com/richardslater"
-        - name: "Keybase"
-          url: "https://keybase.io/richardslater"
-        - name: "StackOverflow"
-          url: "https://stackoverflow.com/users/74302/richard-slater"
-        - name: "ServerFault"
-          url: "https://serverfault.com/users/282/richard-slater"
-        - name: "Twitch"
-          url: "https://www.twitch.tv/scetrov"
+menu:
+  main:
+    - identifier: portfolio
+      name: Photography
+      url: "https://portfolio.richard-slater.co.uk/"
+      weight: 10
+    - identifier: buy-prints
+      name: Buy Prints
+      url: "https://wirestock.io/richard.slater/portfolio"
+      weight: 20
+    - identifier: archive
+      name: Archive
+      url: "/archives/"
+      weight: 30
+
+params:
+  ShowShareButtons: true
+  profileMode:
+    enabled: true
+    title: "Richard Slater"
+    subtitle: "Christian, Technologist, Consultant, Author and Leader"
+    imageUrl: "/profile/seasonal-profile-picture.png"
+    imageTitle: "Richard Slater's Profile Picture with Ukraine Flag as background"
+    imageWidth: 120
+    imageHeight: 120
+
+  socialIcons:
+    - name: "Twitter"
+      url: "https://twitter.com/richardslater"
+    - name: "LinkedIn"
+      url: "https://www.linkedin.com/in/devopsrichard/"
+    - name: "YouTube"
+      url: "https://www.youtube.com/c/RichardSlaterUK"
+    - name: "Facebook"
+      url: "https://www.facebook.com/rdsuk"
+    - name: "Instagram"
+      url: "https://www.instagram.com/richardslater/"
+    - name: "Medium"
+      url: "https://medium.com/@richardslaterinthecloud"
+    - name: "Github"
+      url: "https://github.com/richardslater"
+    - name: "Discord"
+      url: "https://discord.gg/6563TkwM"
+    - name: "HackTheBox"
+      url: "https://app.hackthebox.com/richardslater"
+    - name: "Keybase"
+      url: "https://keybase.io/richardslater"
+    - name: "StackOverflow"
+      url: "https://stackoverflow.com/users/74302/richard-slater"
+    - name: "ServerFault"
+      url: "https://serverfault.com/users/282/richard-slater"
+    - name: "Twitch"
+      url: "https://www.twitch.tv/scetrov"
+    - name: "Steam"
+      url: "http://steamcommunity.com/id/Vortecs/"
