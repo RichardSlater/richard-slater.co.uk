@@ -14,7 +14,7 @@ tags: ['Weekly Update', 'Information Security', 'Cybersecurity']
 ---
 
 ![image](images/1.jpg)
-Photo by [Marcin Kempa](https://unsplash.com/@ashenkris?utm_source=medium&amp;utm_medium=referral) on [Unsplash](https://unsplash.com?utm_source=medium&amp;utm_medium=referral)
+Photo by Marcin Kempa] on [Unsplash](https://unsplash.com?utm_source=medium&amp;utm_medium=referral)
 
 ## Proactive Security and Threat Modeling
 

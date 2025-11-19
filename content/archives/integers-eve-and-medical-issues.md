@@ -5,6 +5,8 @@ draft: false
 tags: ['Diary', 'EVE Online', 'Programming']
 ---
 
+{{< disclaimer >}}
+
 PHP Integers are really getting on my nerves at the moment, it seems that anything more than 32-bits is just plain not supported in PHP… to be honest that is awful… that is the most apauling degree of accuracy I have come across since BASIC. Oh well never mind rant over.
 
 I am having lots of fun playing EVE and writing my dissertation, it is quite interesting researching the history of MMOGs, something that facinates me while being technical and worthy of a dissertation. Need to crack on with the dissertation bit though 5 days to go… should be fine, pleanty of time.

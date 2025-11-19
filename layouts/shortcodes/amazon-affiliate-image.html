@@ -1,0 +1,44 @@
+{{ $resovedASIN := "MISSING" }}
+{{ if isset .Params "asin" }}
+    {{ $resovedASIN = .Params.asin }}
+{{ else }}
+    {{ $resovedASIN = $.Page.Params.asin }}
+{{ end }}
+
+{{ $size := "SL250" }}
+{{ with (eq (.Get "size") "small") }}
+    {{ $size = "SL110" }}
+{{ end }}
+{{ with (eq (.Get "size") "medium") }}
+    {{ $size = "SL160" }}
+{{ end }}
+{{ with (eq (.Get "size") "large") }}
+    {{ $size = "SL250" }}
+{{ end }}
+{{ with (eq (.Get "size") "extralarge") }}
+    {{ $size = "SL500" }}
+{{ end }}
+{{ if hasPrefix (.Get "size") "SL" }}
+    {{ $size = (.Get "size") }}
+{{ end }}
+
+{{ $style := "amazon-link" }}
+{{ with (eq (.Get "align") "left") }}
+    {{ $style = "amazon-link alignleft" }}
+{{ end }}
+{{ with (eq (.Get "align") "right") }}
+    {{ $style = "amazon-link alignright" }}
+{{ end }}
+{{ with (eq (.Get "align") "center") }}
+    {{ $style = "amazon-link aligncenter" }}
+{{ end }}
+
+<a
+    href='http://www.amazon.co.uk/dp/{{ $resovedASIN }}/?tag={{ $.Page.Site.Params.amazonAffiliateLinks.UK }}'
+    title='{{ .Get "title" }}'
+    target="_blank"
+    class='{{ $style }}'>
+        <img
+            src='https://ws-eu.amazon-adsystem.com/widgets/q?_encoding=UTF8&asin={{ $resovedASIN }}&Format=_{{ $size }}_&ID=AsinImage&MarketPlace=GB&ServiceVersion=20070822&WS=1&tag={{ $.Page.Site.Params.amazonAffiliateLinks.UK }}&language=en_GB'
+            title='{{ .Get "title" }}'>
+</a>

@@ -103,7 +103,7 @@ Disabling IPv6 might be throwing the baby out with the bathwater, I would discou
 
 #### Block Bad Actors
 
-In the [McAfee Security blog post] (https://www.mcafee.com/blogs/other-blogs/mcafee-labs/cve-2020-16898-bad-neighbor/)they kindly included a set of [Suricata](https://suricata-ids.org/) rules to block the bad actors from sending malicious packets:
+In the [McAfee Security blog post] (https://www.mcafee.com/blogs/other-blogs/mcafee-labs/cve-2020-16898-bad-neighbor/) they kindly included a set of [Suricata](https://suricata-ids.org/) rules to block the bad actors from sending malicious packets:
 
 [advanced-threat-research/CVE-2020-16898](https://github.com/advanced-threat-research/CVE-2020-16898)
 

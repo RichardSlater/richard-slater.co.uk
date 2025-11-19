@@ -60,7 +60,7 @@ Processor development is long cycles, so it’s not entirely surprising that six
 
 ### SANS Released Part II of their Vulnerability Management Maturity Model
 
-[Jonathan Risto](https://www.sans.org/profiles/jonathan-risto?msc=blog-author) takes us through an immensely entertaining journey through implementing vulnerability management through using the Vulnerability Management Maturity model. Just commit to reading both [Part I](https://www.sans.org/blog/vulnerability-management-maturity-model/) and [Part II] (https://www.sans.org/blog/vulnerability-management-maturity-model-part-ii/)at the very least you will smile, and you might just get break the back of vulnerability management within your organisation.
+[Jonathan Risto](https://www.sans.org/profiles/jonathan-risto?msc=blog-author) takes us through an immensely entertaining journey through implementing vulnerability management through using the Vulnerability Management Maturity model. Just commit to reading both [Part I](https://www.sans.org/blog/vulnerability-management-maturity-model/) and [Part II] (https://www.sans.org/blog/vulnerability-management-maturity-model-part-ii/) at the very least you will smile, and you might just get break the back of vulnerability management within your organisation.
 
 [Vulnerability Management Maturity Model Part I](https://www.sans.org/blog/vulnerability-management-maturity-model/)
 
