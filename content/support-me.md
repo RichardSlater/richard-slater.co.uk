@@ -3,6 +3,8 @@ title: 'Support Me'
 draft: false
 ---
 
+{{< disclosure custom="This post contains referral links, using these links will take you to other websites that may collect your personal data. As the referer, I may get financial or other benefits when you sign up." >}}
+
 Creating content can be a thankless task. However, it is a way of giving back, building a better internet, and something enjoyable to do in my spare time. Therefore, if you feel moved to support me financially, either as a one-off or a monthly donation, you will enable me to spend more time focusing on creating new content.
 
 ## Support me financially
