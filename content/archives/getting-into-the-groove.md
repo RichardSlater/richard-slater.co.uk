@@ -5,7 +5,7 @@ draft: false
 tags: ['BBQ', 'Diary', 'housewarming', 'party', 'Things You Find']
 ---
 
-Catherine and I put on a barbecue this weekend, in theory it was a housewarming party, however we have been here for 16 months - so not really a housewarming. One of the things that we didn't have to put any effort into was the music, and that was down to something called [Grooveshark Lite](http://listen.grooveshark.com/). [![](/uploads/2008/08/groovesharklite-300x248.png "Groveshark Lite")](/uploads/2008/08/groovesharklite.png)
+Catherine and I put on a barbecue this weekend, in theory it was a housewarming party, however we have been here for 16 months - so not really a housewarming. One of the things that we didn't have to put any effort into was the music, and that was down to something called Grooveshark Lite. [![](/uploads/2008/08/groovesharklite-300x248.png "Groveshark Lite")](/uploads/2008/08/groovesharklite.png)
 
 Groveshark is a Florida start up company who's business model is basically to allow users to upload their music collection to Groveshark's servers, registered users can download the music (at a price), of the said price a cut goes to the artist, a cut to the person who uploaded the music and presumably the rest goes to Groveshark.
 
