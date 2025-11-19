@@ -66,6 +66,8 @@ params:
       url: "https://keybase.io/richardslater"
     - name: "Goodreads"
       url: "https://www.goodreads.com/user/show/7582933-richard-slater"
+    - name: "Gurushots"
+      url: "https://gurushots.com/RichardSlater?tc=e4dabf742eed3ba7f998ade97724943c"
     - name: "StackOverflow"
       url: "https://stackoverflow.com/users/74302/richard-slater"
     - name: "ServerFault"
