@@ -1,9 +1,14 @@
+---
+title: 'Privacy Policy'
+draft: false
+---
+
 Privacy Policy for Richard Slater
 =================================
 
 At Richard Slater's Personal Website, accessible from https://www.richard-slater.co.uk, one of our main priorities is the privacy of our visitors. This Privacy Policy document contains types of information that is collected and recorded by Richard Slater's Personal Website ("the website", "our website") and how we use it.
 
-Our Privacy Policy was last updated on the {{< lastmodified >}}.
+Our Privacy Policy was last updated on {{< lastmodified >}}.
 
 If you have additional questions or require more information about our Privacy Policy, do not hesitate to contact me on [Twitter](https://twitter.com/richardslater), [Keybase](https://keybase.io/richardslater) or [Discord](https://discord.com/invite/6563TkwM).
 
