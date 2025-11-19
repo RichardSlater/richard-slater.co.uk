@@ -26,8 +26,8 @@
     Content-Security-Policy = '''
       default-src 'none';
       img-src 'self' data: https://www.googletagmanager.com;
-      style-src 'self' https://fonts.googleapis.com;
-      script-src 'self' https://www.googletagmanager.com https://*.netlify.app/;
+      style-src 'self' https://fonts.googleapis.com ;
+      script-src 'self' https://www.googletagmanager.com https://*.netlify.app/ 'sha256-+MOXilZ3WLl22hD4B8rMOzUtKoeFgn6em0SkiWmMh7k=' 'sha256-pYERp1GFTQcj76yK8huGHJtriZpv9dsW7AdV7O+VrcQ=' 'sha256-JVVDOwRpMQvCZqoDwpZ1OUJ81UoJpBxumeEHC89A9PU=' 'sha256-P04sv6Gx4G2SNlC/BLire6NlKJJRrW+WA3R+vPzVvxk=' 'sha256-RK7LdSEhpwvmYMT+Jix2uBLUXxlWBpHbN6lasgC6hv8=';
       font-src data: https://fonts.gstatic.com;
       manifest-src 'none';
       connect-src https://www.google-analytics.com;
@@ -84,4 +84,3 @@
     Referrer-Policy = "strict-origin-when-cross-origin"
     Cross-Origin-Embedder-Policy = "unsafe-none; report-to=default"
     Cross-Origin-Opener-Policy = "same-origin; report-to=default"
-    
