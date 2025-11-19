@@ -48,8 +48,8 @@ params:
     subtitle: "Christian, Technologist, Consultant, Author and Leader"
     imageUrl: "/profile/seasonal-profile-picture.png"
     imageTitle: "Richard Slater's Profile Picture with Ukraine Flag as background"
-    imageWidth: 120
-    imageHeight: 120
+    imageWidth: 180
+    imageHeight: 180
   editPost:
     URL: "https://github.com/RichardSlater/richard-slater.co.uk/tree/master/content"
     Text: "Suggest Changes" # edit text
