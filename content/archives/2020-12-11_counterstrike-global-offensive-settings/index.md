@@ -3,25 +3,18 @@ title: "Counter-Strike: Global Offensive Settings"
 author: "Richard Slater"
 date: 2020-12-11T20:01:26.397Z
 lastmod: 2022-05-09T21:21:00+01:00
-
 description: ""
-
 subtitle: "Mouse"
-
-image: "/archives/2020-12-11_counterstrike-global-offensive-settings/images/1.jpg" 
+image: "images/1.jpg" 
 images:
- - "/archives/2020-12-11_counterstrike-global-offensive-settings/images/1.jpg"
-
-
+ - "images/1.jpg"
 aliases:
     - "/counter-strike-global-offensive-settings-b89dfd143f1d"
 
 ---
 
-![image](/archives/2020-12-11_counterstrike-global-offensive-settings/images/1.jpg#layoutTextWidth)
+![image](images/1.jpg)
 Photo by [Daniel Stub](https://unsplash.com/@dstub?utm_source=medium&amp;utm_medium=referral) on [Unsplash](https://unsplash.com?utm_source=medium&amp;utm_medium=referral)
-
-
 
 ### Mouse
 
