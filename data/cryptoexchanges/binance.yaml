@@ -1,0 +1,13 @@
+Name: Binance
+Logo: binance-logo.png
+Uri: www.binance.com
+Referral: https://accounts.binance.com/en/register?ref=80739857
+Description: Binance is the worlds largest Cryptocurrency Exchange based upon trading volumes. Founded in 2017 it has grown to support retail customers across the world, offering the lowest fees in the market. Unfortunately due to regulatory intervention some products are not available in all duristictions.
+Security:
+ - Yubikey
+ - Google Authenticator
+ - SMS 2nd Factor
+ - Email 2nd Factor
+ - Withdrawal Address Whitelists
+ - Whitelist Cooldown
+draft: false

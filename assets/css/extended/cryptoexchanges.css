@@ -1,0 +1,30 @@
+table.cryptoexchanges th {
+    font-size: x-large; 
+}
+
+table.cryptoexchanges td h2 { 
+    padding: none;
+    margin-top: 0px;
+}
+
+table.cryptoexchanges td h2 a:link, table.cryptoexchanges td h2 a:visited {
+    font-size: x-large; 
+    box-shadow: none;
+}
+
+table.cryptoexchanges td {
+    vertical-align: top;
+}
+
+td.cryptoex-logo > p.uri {
+    font-size: small;
+}
+
+td.cryptoex-logo > p.uri > span {
+    font-family: 'Courier New', Courier, monospace;
+    background-color: white;
+    color: black;
+    padding: 5px;
+    border: 1px solid darkgray;
+    border-radius: 5px;
+}

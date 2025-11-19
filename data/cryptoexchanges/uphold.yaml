@@ -1,0 +1,8 @@
+Name: Uphold
+Logo: uphold-logo.png
+Uri: www.uphold.com
+Referral: TBC
+Description: Uphold was founded in 2013 by Halsey Minor, who lists CNET, Salesforce.com and Google Voice as corporate creations. Uphold's interface is simpler than other plantforms with a focus on basic line charts and trades between coins represented in local currencies.
+Security:
+ - Google Authenticator
+draft: true
