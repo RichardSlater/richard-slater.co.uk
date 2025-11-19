@@ -1,9 +1,9 @@
-<script type="module">
-  import mermaid from "https://cdn.jsdelivr.net/npm/mermaid/dist/mermaid.esm.min.mjs";
-  mermaid.initialize({
-    startOnLoad: true,
-    theme: document.querySelector("body").classList.contains("dark")
-      ? "dark"
-      : "default",
-  });
-</script>
+{{ if (.Params.mermaid) }}
+  <script type="module">
+    import mermaid from 'https://cdn.jsdelivr.net/npm/mermaid/dist/mermaid.esm.min.mjs';
+    mermaid.initialize({
+        startOnLoad: true,
+        theme: document.querySelector('body').classList.contains('dark') ? 'dark' : 'default',
+    });
+  </script>
+{{ end }}
