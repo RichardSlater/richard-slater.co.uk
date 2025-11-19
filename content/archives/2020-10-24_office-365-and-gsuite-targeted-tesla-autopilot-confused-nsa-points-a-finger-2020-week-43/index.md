@@ -10,6 +10,7 @@ images:
  - "images/1.jpg"
 aliases:
     - "/office-365-and-g-suite-targeted-tesla-autopilot-confused-nsa-points-a-finger-2020-week-43-da033a06c125"
+tags: ['Weekly Update', 'Information Security', 'Cybersecurity']
 ---
 
 ![image](images/1.jpg)

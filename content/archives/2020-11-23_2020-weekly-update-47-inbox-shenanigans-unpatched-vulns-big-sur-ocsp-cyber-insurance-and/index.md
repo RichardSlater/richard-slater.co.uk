@@ -10,6 +10,7 @@ images:
  - "images/1.jpg"
 aliases:
     - "/2020-weekly-update-47-inbox-shenanigans-unpatched-vulns-big-sur-ocsp-cyber-insurance-and-7bb50bd3cd0"
+tags: ['Weekly Update', 'Information Security', 'Cybersecurity']
 ---
 
 ![image](images/1.jpg)

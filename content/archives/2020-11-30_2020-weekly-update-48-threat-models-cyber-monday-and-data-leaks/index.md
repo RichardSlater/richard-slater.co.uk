@@ -10,6 +10,7 @@ images:
  - "images/1.jpg"
 aliases:
     - "/2020-weekly-update-48-threat-models-cyber-monday-and-data-leaks-b187e5aadc9c"
+tags: ['Weekly Update', 'Information Security', 'Cybersecurity']
 ---
 
 ![image](images/1.jpg)

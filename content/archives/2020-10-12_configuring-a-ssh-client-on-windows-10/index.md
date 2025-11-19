@@ -10,6 +10,7 @@ images:
  - "images/1.jpg"
 aliases:
  - "/configuring-a-ssh-client-on-windows-10-4436c16c3469"
+tags: ['DevOps', 'Windows', 'SSH']
 ---
 
 ![image](images/1.jpg)

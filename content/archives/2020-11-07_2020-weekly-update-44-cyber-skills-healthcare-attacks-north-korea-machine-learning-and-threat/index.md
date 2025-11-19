@@ -10,6 +10,7 @@ images:
  - "images/1.jpg"
 aliases:
     - "/2020-weekly-update-44-cyber-skills-healthcare-attacks-north-korea-machine-learning-and-threat-a1395585c518"
+tags: ['Weekly Update', 'Information Security', 'Cybersecurity']
 ---
 
 ![ENIGMA machine in a display case.](images/1.jpg)

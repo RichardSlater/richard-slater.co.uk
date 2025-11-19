@@ -10,6 +10,7 @@ images:
  - "images/1.jpg"
 aliases:
     - "/2020-weekly-update-46-a92ea43df38b"
+tags: ['Weekly Update', 'Information Security', 'Cybersecurity']
 ---
 
 ![image](images/1.jpg)

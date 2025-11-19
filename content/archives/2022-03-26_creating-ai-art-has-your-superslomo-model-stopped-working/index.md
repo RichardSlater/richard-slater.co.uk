@@ -12,7 +12,7 @@ images:
  - "images/3.png"
 aliases:
     - "/creating-ai-art-has-your-super-slomo-model-stopped-working-5469e599d3f9"
-
+tags: ['Digital Art', 'Artificial Intelligence', 'Google Colab', 'Jupyter Notebooks']
 ---
 
 ![image](images/1.jpeg)
