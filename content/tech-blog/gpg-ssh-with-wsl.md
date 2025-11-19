@@ -182,8 +182,6 @@ You must have the relevant GPG keys, I strongly recommend creating a master cert
 
 1. If all you need is support from within Windows then you are done, if you want to configure WSL then you will need a final step on Windows before switching over to WSL.
 
-1. All being well this should install `npiperelay.exe` in `$env:USERPROFILE/go/bin` you will need to reference this from WSL, so check the path.
-
 ### WSL Setup
 
 1. Alias `gpg` on WSL to `C:\Program Files (x86)\GnuPG\bin\gpg.exe` on Windows:
