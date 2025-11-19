@@ -8,13 +8,13 @@ tags: ['Diary', 'Driving', 'Inkscape', 'police', 'SVG']
 
 Spent some more time driving round Woodingdean, Kev went through who has priority in which situations. For example if an obstruction is on your side of the road then the oncoming traffic has priority, the situation can obviously be reversed if the obstruction is on the other side of the road the you have priority.
 
-[![](/uploads/2008/08/carsandroad-228x300.png "Cars and Road")](/uploads/2008/08/carsandroad.png)
+[![](/img/archive/2008/08/carsandroad-228x300.png "Cars and Road")](/img/archive/2008/08/carsandroad.png)
 
 I have been drawing out some of the diagrams from Kev's folder of pictures, to save anyone else the trouble I have included the source files here for anyone to play with all licensed under the [Creative Commons Attribution-Share Alike 3.0 Unported Licence](http://creativecommons.org/licenses/by-sa/3.0/).
 
 I suggest that you use Inkscape to edit the following Scalable Vector Graphic file, first and foremost it is Open Source and thus freely available and two the images were created in Inkscape in the first place.
 
-[Cars and Road - Scalable Vector Graphic](/uploads/2008/08/carsandroadinkscape.svg)
+[Cars and Road - Scalable Vector Graphic](/img/archive/2008/08/carsandroadinkscape.svg)
 
 If you come up with some derivations of this image please feel free to comment on this post with your version and I will be happy to provide a link back to your work.
 

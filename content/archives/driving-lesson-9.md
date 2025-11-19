@@ -10,6 +10,6 @@ Well roundabouts went well today, I am still not anywhere near confident on them
 
 So anyway, enough lamenting about driving lessons. Kev introduced reversing round corners to me, which I found similar to turning round in the road, in terms of things to think about. Certainly skills I learnt in turning round in the road helped, particularly controlling the car with the clutch and foot brake.
 
-[![](/uploads/2008/08/reversingroundacorner-300x192.png "Reversing round a corner")](/uploads/2008/08/reversingroundacorner.png)
+[![](/img/archive/2008/08/reversingroundacorner-300x192.png "Reversing round a corner")](/img/archive/2008/08/reversingroundacorner.png)
 
 On the basis I have only done this twice, this may be wrong... very wrong. Essentially this is another way turn the car round so that it is pointing in the opposite direction. After doing the five point check - right blind spot, right door mirror, front windscreen, left door mirror and rear window - I reverse round the corner keeping the kerb an equal distance from the car all the way round,  Once straightened up round the corner reverse the car into a parked position.

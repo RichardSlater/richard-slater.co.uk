@@ -10,7 +10,7 @@ My tenth hour of driving lessons is over, and I am pleased with my progress. It 
 
 Today I drove from part of Hove (not quite sure which part) over to Woodingdean, we did some loops in both places to get use to using junctions before heading home via the A259 again. I am still struggling with "panic" when something doesn't go right, my mind went blank a couple of times when I was coming up to a junction. Kev went through the Mirror-Signal-Manoeuvre-Position-Speed-Look procedure again which is a really good procedure for any hazard including junctions (yes, i do feel that anything that isn't a straight road is a hazard).
 
-The procedure makes much more sense in a car than on paper, however this is my attempt at getting it down: [![](/uploads/2008/08/msmpsl1-300x111.png "Mirror-Signal-Manoeuvre-Position-Signal-Look")](/uploads/2008/08/msmpsl1.png)
+The procedure makes much more sense in a car than on paper, however this is my attempt at getting it down: [![](/img/archive/2008/08/msmpsl1-300x111.png "Mirror-Signal-Manoeuvre-Position-Signal-Look")](/img/archive/2008/08/msmpsl1.png)
 
  1. **Mirror** – check internal and the mirror on the side you are turning to
  1. **Signal** – let the people around you know what you are doing with your indicators

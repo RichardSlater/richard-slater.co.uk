@@ -13,7 +13,7 @@ tags: ['dotnet', 'C#', 'EVE Online', 'EVEMon', 'EVEMon', 'LINQPad', 'Programming
 4.  Navigate to the EVEMon install directory.
 5.  Select "EVEMon.Common.dll"
 
-[![](/uploads/2010/07/LINQPadQueryProperties.png "LINQPadQueryProperties")](/uploads/2010/07/LINQPadQueryProperties.png) While you have "Query Properties" open go to the "Additional Namespace Import" tab and add the following two lines:
+[![](/img/archive/2010/07/LINQPadQueryProperties.png "LINQPadQueryProperties")](/img/archive/2010/07/LINQPadQueryProperties.png) While you have "Query Properties" open go to the "Additional Namespace Import" tab and add the following two lines:
 
 ```
 EVEMon.Common.Data
@@ -47,4 +47,4 @@ I could start to explain the above line by line, but there are lots of really go
 allItems.Dump();
 ```
 
-Will output the data we have just queried as a nice HTML Table: [![](/uploads/2010/07/LINQPadDumpShips.png "LINQPadDumpShips")](/uploads/2010/07/LINQPadDumpShips.png) That is all I have for you for now, I am working on a project that uses this data outside of EVEMon, keep an eye on [Twitter](https://twitter.com/richardslater) where I will hopefully be providing a link for testing in the not too far distant future.
+Will output the data we have just queried as a nice HTML Table: [![](/img/archive/2010/07/LINQPadDumpShips.png "LINQPadDumpShips")](/img/archive/2010/07/LINQPadDumpShips.png) That is all I have for you for now, I am working on a project that uses this data outside of EVEMon, keep an eye on [Twitter](https://twitter.com/richardslater) where I will hopefully be providing a link for testing in the not too far distant future.

@@ -14,7 +14,7 @@ So anyway here are some "pretty pictures" of roundabouts and what I have in my h
 
 ## Priority on Roundabouts
 
-[![](/uploads/2008/08/roundaboutpriority-259x300.png "Roundabout Priority")](/uploads/2008/08/roundaboutpriority.png) I made the sudden realization when in the car today that roundabouts are circular one way streets, traffic will only be coming from the right! As an analogy it is not very useful, I thought it was quite amusing.
+[![](/img/archive/2008/08/roundaboutpriority-259x300.png "Roundabout Priority")](/img/archive/2008/08/roundaboutpriority.png) I made the sudden realization when in the car today that roundabouts are circular one way streets, traffic will only be coming from the right! As an analogy it is not very useful, I thought it was quite amusing.
 
 In this diagram the red car is me, I will try and describe what the other cars are there for as I go along.
 
@@ -24,7 +24,7 @@ Again this was not something I had thought about before, but roundabouts allow t
 
 ## Turning left at a Roundabout
 
-[![](/uploads/2008/08/roundaboutturningleft-259x300.png "Turning left at a Roundabout")](/uploads/2008/08/roundaboutturningleft.png)
+[![](/img/archive/2008/08/roundaboutturningleft-259x300.png "Turning left at a Roundabout")](/img/archive/2008/08/roundaboutturningleft.png)
 
 On the approach to the roundabout first thing I need to remember is to slow down to 10mph or below (I will mention this several times). This will allow for the maximum amount of time to assess the situation.
 
@@ -36,7 +36,7 @@ Once the way is clear move round the outside of the roundabout and out of the fi
 
 ## Going straight ahead at a Roundabout
 
-[![](/uploads/2008/08/roundaboutstraightover-259x300.png "Going straight over a Roundabout")](/uploads/2008/08/roundaboutstraightover.png) This section used to be titled "Going straight over a Roundabout", Kev since mentioned that wasn't the way to describe it, however I must point out that the Police and local council don't take kindly to driving over roundabouts... it tends to damage the floral displays.
+[![](/img/archive/2008/08/roundaboutstraightover-259x300.png "Going straight over a Roundabout")](/img/archive/2008/08/roundaboutstraightover.png) This section used to be titled "Going straight over a Roundabout", Kev since mentioned that wasn't the way to describe it, however I must point out that the Police and local council don't take kindly to driving over roundabouts... it tends to damage the floral displays.
 
 Again going straight over requires the use of the MSM-PSL procedure, however in this instance you do not indicate until you have passed the first exit. This prevents following vehicles from expecting you to turn left onto the first exit.
 
@@ -44,7 +44,7 @@ It is important to note that the outside edge of the roundabout should be follow
 
 ## Going right at a Roundabout
 
-[![](/uploads/2008/08/roundaboutturningright-259x300.png "Turning right at a Roundabout")](/uploads/2008/08/roundaboutturningright.png) MSM-PSL procedure as expected; So first check the internal and left mirror signal to the right, positioning myself to turn onto the roundabout, if the way is clear I would continue or move off onto the roundabout.
+[![](/img/archive/2008/08/roundaboutturningright-259x300.png "Turning right at a Roundabout")](/img/archive/2008/08/roundaboutturningright.png) MSM-PSL procedure as expected; So first check the internal and left mirror signal to the right, positioning myself to turn onto the roundabout, if the way is clear I would continue or move off onto the roundabout.
 
 Unlike the previous examples I would use the inner lane of the roundabout continue to indicate right until I pass the exit before the exit I wish to take, at this point I apply the MSM-PSL procedure to move off the roundabout on the exit I wish to take.
 

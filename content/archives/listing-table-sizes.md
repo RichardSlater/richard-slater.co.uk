@@ -7,7 +7,7 @@ tags: ['Programming', 'SQL', 'SQL Server', 'Sys Admin']
 
 Databases are a pain in the neck to look after, poorly designed models and processes that don't remove temporary data can cause a database to grow in size. A database that is allowed to grow large beyond its requirements becomes a burden on the nightly backup, takes longer to restore in the event of a recovery scenario and slows down the development process by preventing developers from testing things out on "live" data. More often than not I have found that the problem lies with log or analytic tables sometimes this information is liberally logged (which it should be) and then totally ignored without a thought for trimming the data on a regular basis. SQL Server Management Studio provides a way of looking at the storage usage of tables individually from the properties context menu item of the table.
 
-[![SSMS Storage Properties](/uploads/2010/11/SSMSStorageProperties.png "SSMS Storage Properties")](/uploads/2010/11/SSMSStorageProperties.png)
+[![SSMS Storage Properties](/img/archive/2010/11/SSMSStorageProperties.png "SSMS Storage Properties")](/img/archive/2010/11/SSMSStorageProperties.png)
 
 In large databases this can be laborious, I found [a script](http://www.cryer.co.uk/brian/sqlserver/howto_list_table_sizes.htm) that will collect this information and present it as a table. I have adapted it a little so that I can see the total size of the table and sort by each column to drill down to the problem tables.
 

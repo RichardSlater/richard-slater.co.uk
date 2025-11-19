@@ -135,4 +135,4 @@ HealthAuthority (String) : Length = 3
 
 In a future post I am going to take it to the next stage; create a table and complete the import with the Import Export Wizard. I would also like to improve the performance of the schema scanner by converting the code into C#.
 
-[SchemaScanner](/uploads/2010/12/SchemaScanner.zip)
+[SchemaScanner](/img/archive/2010/12/SchemaScanner.zip)

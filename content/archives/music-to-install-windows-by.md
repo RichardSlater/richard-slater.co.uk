@@ -5,7 +5,7 @@ draft: false
 tags: ['Diary', 'Sys Admin', 'Vampire Weekend', 'Visual Studio', 'Windows 7']
 ---
 
-![Windows 7 Home Premium](/uploads/2009/10/Windows7HomePremium-268x300.jpg "Windows 7 Home Premium")
+![Windows 7 Home Premium](/img/archive/2009/10/Windows7HomePremium-268x300.jpg "Windows 7 Home Premium")
 
 Windows 7 turned up in the post today. The red box is Visual Studio 2008 which is there to show that the boxes have a similar profile to the old style hard cases. I have been running the Beta since it was first available to the general public, and I have had Windows 7 Business at work for a couple of weeks now. Bought Windows 7 Home Premium for about £45 from Tesco. One copy for the main PC which I will probably re-build at Christmas and one copy for the laptop which is re-built now.
 

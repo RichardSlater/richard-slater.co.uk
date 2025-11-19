@@ -9,7 +9,7 @@ Peacehaven saw a much anticipated thunderstorm last night, I say much antcipated
 
 It started off with just flashes of lightning and claps of thunder moving closer and closer, then came the rain, when I say rain I mean a torrent of water coming from the sky so much so that gutters and drains were overwhelmed making it all the more impressive. During this time I needed to get from a front door of a friend's house to a car and the four of us, plus the other people going to other cars got soaked in the few seconds we were out in the rain.
 
-[](/uploads/2008/08/hailstonesongrass.jpg)[](/uploads/2008/08/pennyandhailstones.jpg)[![](/uploads/2008/08/20mmhailstone-150x150.jpg "20mm Hail Stone")](/uploads/2008/08/20mmhailstone.jpg)
+[](/img/archive/2008/08/hailstonesongrass.jpg)[](/img/archive/2008/08/pennyandhailstones.jpg)[![](/img/archive/2008/08/20mmhailstone-150x150.jpg "20mm Hail Stone")](/img/archive/2008/08/20mmhailstone.jpg)
 
 Once in the car it started to rain more, I am glad I am not driving yet because I honestly wouldn't be happy driving in that amount of rain with the experience I have at the moment, again a reason we are not let loose on the road quickly. A few minutes later the hail started, this was not just normal pea sized hail this was marble sized hail stones, I got a few pictures. It was one of those days in the year that I really wish I had a camera that I could take more control over the picture, manual focus would be a great start. Also being able to set cameras on tripods and then set it up to take time delays of lightening. Would be very very cool.
 

@@ -26,7 +26,7 @@ Courses can be freely published (i.e. moved from Unpublished to Published) by cl
     Text="Unpublish" />
 ```
 
-[![](/uploads/2010/04/CourseBookings1-300x114.png "CourseBookings")](/uploads/2010/04/CourseBookings1.png) This application has been running for six months, the issue had not been observed up until yesterday. The user explained to me that when they were publishing courses they were always published in pairs, equally when unpublishing courses it was being done in pairs, concealingly unpublishing a course with bookings.
+[![](/img/archive/2010/04/CourseBookings1-300x114.png "CourseBookings")](/img/archive/2010/04/CourseBookings1.png) This application has been running for six months, the issue had not been observed up until yesterday. The user explained to me that when they were publishing courses they were always published in pairs, equally when unpublishing courses it was being done in pairs, concealingly unpublishing a course with bookings.
 
 Investigating the problem
 =========================

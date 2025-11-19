@@ -9,6 +9,6 @@ I have been using StumbleUpon for a couple of years now, it is a superb way of f
 
 I am not sure if this person has underestimated the capacity of the Internet to spread information really quickly or if it is a marketing thing. I have decided to blur out the identifiable information until I can work out which of the above it is.
 
-[![](/uploads/2008/08/tracyappsunblured-267x300.png "House Warming Party")](/uploads/2008/08/tracyappsunblured.png)
+[![](/img/archive/2008/08/tracyappsunblured-267x300.png "House Warming Party")](/img/archive/2008/08/tracyappsunblured.png)
 
 **Update:** Well it seems that I was wrong, unlike [some recent](http://news.bbc.co.uk/1/hi/england/kent/7385924.stm) events it seems that putting invitations up on the internet and them working their way onto socal network sites dosn't always end in disaster.

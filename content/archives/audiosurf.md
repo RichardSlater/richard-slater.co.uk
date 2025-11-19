@@ -7,7 +7,7 @@ tags: ['Games', 'Games']
 
 One of the many RSS feeds I subscribe to is [Rock, Paper, Shotgun](http://www.rockpapershotgun.com/). Over the weekend Alec Meer posted an article about a game called AudioSurf.
 
-[![](/uploads/2008/09/audiosurf-300x187.jpg "Audio Surf")](/uploads/2008/09/audiosurf.jpg)
+[![](/img/archive/2008/09/audiosurf-300x187.jpg "Audio Surf")](/img/archive/2008/09/audiosurf.jpg)
 
 Essentially you feed in an audio track in one of several popular formats, AudioSurf then analyzes the music and generates a racetrack. On this racetrack ride several coloured blocks. These blocks can be collected in a grid, in much the same way as Connect 4. Once you have collected three or more of these blocks of the same colour in a connecting pattern you will score points based upon the number of blocks and the colour.
 
