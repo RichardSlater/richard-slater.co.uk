@@ -11,19 +11,25 @@ googleAnalytics: G-S9EH7VDT2S
 
 enableGitInfo: true
 
+outputs:
+  home:
+    - HTML
+    - RSS
+    - JSON
+
 menu:
   main:
-    - identifier: portfolio
+    - identifier: photography
       name: Photography
       url: "https://portfolio.richard-slater.co.uk/"
       weight: 10
-    - identifier: buy-prints
-      name: Buy Prints
-      url: "https://wirestock.io/richard.slater/portfolio"
-      weight: 20
     - identifier: archive
       name: Archive
       url: "/archives/"
+      weight: 20
+    - identifier: search
+      name: Search
+      url: "/search/"
       weight: 30
     - identifier: privacy
       name: Privacy
@@ -32,6 +38,10 @@ menu:
 
 params:
   ShowShareButtons: true
+  ShowReadingTime: true
+  ShowBreadCrumbs: true
+  ShowPostNavLinks: true
+  ShowCodeCopyButtons: true
   profileMode:
     enabled: true
     title: "Richard Slater"
@@ -40,6 +50,10 @@ params:
     imageTitle: "Richard Slater's Profile Picture with Ukraine Flag as background"
     imageWidth: 120
     imageHeight: 120
+  editPost:
+    URL: "https://github.com/RichardSlater/richard-slater.co.uk/tree/master/content"
+    Text: "Suggest Changes" # edit text
+    appendFilePath: true # to append file path to Edit link
 
   socialIcons:
     - name: "Twitter"
