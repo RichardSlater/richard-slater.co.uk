@@ -1,0 +1,5 @@
+/* TEAM */
+Thanks to Richard Slater for the role of Owner.
+Thanks to Aditya Telange for the role of Developer of PaperMod theme.
+Thanks to Hugo Team for the role of Developers of Hugo.
+Thanks to Netlify Team for the role of Static Site Hosting.

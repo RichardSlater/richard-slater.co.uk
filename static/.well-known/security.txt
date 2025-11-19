@@ -1,0 +1,6 @@
+Contact: mailto:security@slaterfamily.name
+Expires: 2023-05-08T22:59:00.000Z
+Encryption: https://keybase.io/richardslater/pgp_keys.asc
+Acknowledgments: https://www.richard-slater.co.uk/humans.txt
+Preferred-Languages: en
+Canonical: https://www.richard-slater.co.uk/.well-known/security.txt
