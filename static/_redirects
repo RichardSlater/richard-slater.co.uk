@@ -17,7 +17,9 @@
 /archives/tag/*         /archives/categories/:splat                                                    301
 
 # Flatten Taxonomy
-/archives/category/eve-online/evemon/   /archives/category/evemon/                                     301
+/archives/category/eve-online/evemon/       /archives/category/evemon/                                 301
+/archives/category/programming/coderush/    /archives/category/coderush/                               301
+/archives/category/programming/unity3d/     /archives/category/unity3d/                                301
 
 # Old "Post ID" WordPress URLs
 /?p=854                 /archives/2010/11/12/encapsulating-alpha-fade-in-unity3d/                      301!
