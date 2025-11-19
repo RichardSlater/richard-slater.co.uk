@@ -30,13 +30,13 @@
     X-Frame-Options = "SAMEORIGIN"
     Content-Security-Policy = '''
       default-src 'none';
-      img-src 'self' https://www.richard-slater.co.uk https://cloudfront.net https://*.cloudfront.net data: https://www.googletagmanager.com;
+      img-src 'self' https://www.richard-slater.co.uk https://cloudfront.net https://*.cloudfront.net data: https://www.googletagmanager.com https://ws-eu.amazon-adsystem.com;
       style-src 'self' https://fonts.googleapis.com;
-      script-src 'self' https://www.googletagmanager.com https://*.netlify.app/ 'sha256-+MOXilZ3WLl22hD4B8rMOzUtKoeFgn6em0SkiWmMh7k=' 'sha256-pYERp1GFTQcj76yK8huGHJtriZpv9dsW7AdV7O+VrcQ=' 'sha256-JVVDOwRpMQvCZqoDwpZ1OUJ81UoJpBxumeEHC89A9PU=' 'sha256-P04sv6Gx4G2SNlC/BLire6NlKJJRrW+WA3R+vPzVvxk=' 'sha256-RK7LdSEhpwvmYMT+Jix2uBLUXxlWBpHbN6lasgC6hv8=' 'sha256-Bw6N1XWLxWBiVK2nDwbWvrCz5xJqftvdmzhnxUbjqz0=';
+      script-src 'self' https://www.googletagmanager.com https://*.netlify.app/ 'sha256-+MOXilZ3WLl22hD4B8rMOzUtKoeFgn6em0SkiWmMh7k=' 'sha256-pYERp1GFTQcj76yK8huGHJtriZpv9dsW7AdV7O+VrcQ=' 'sha256-JVVDOwRpMQvCZqoDwpZ1OUJ81UoJpBxumeEHC89A9PU=' 'sha256-P04sv6Gx4G2SNlC/BLire6NlKJJRrW+WA3R+vPzVvxk=' 'sha256-RK7LdSEhpwvmYMT+Jix2uBLUXxlWBpHbN6lasgC6hv8=' 'sha256-Bw6N1XWLxWBiVK2nDwbWvrCz5xJqftvdmzhnxUbjqz0=' 'sha256-Z/yOc0e0P+QD02w8OrO7Bd5RA+T2+b+SA8PIV7nWWCo=';
       script-src-attr 'unsafe-hashes' 'sha256-nP0EI9B9ad8IoFUti2q7EQBabcE5MS5v0nkvRfUbYnM=';
       font-src data: https://fonts.gstatic.com;
       manifest-src 'none';
-      connect-src 'self' https://www.google-analytics.com;
+      connect-src 'self' https://www.google-analytics.com https://region1.google-analytics.com/;
       frame-src https://www.googletagmanager.com https://app.netlify.com/;
       report-uri https://richardslater.report-uri.com/r/d/csp/enforce;
       report-to default;
