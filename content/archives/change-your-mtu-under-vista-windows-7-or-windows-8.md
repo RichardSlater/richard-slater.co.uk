@@ -9,7 +9,7 @@ _I have been updating this blog post over the years since I first discovered the
 
 ## Step 1: Find your MTU
 
-From an [elevated Command Prompt in Vista/Windows 7](/archives/2010/10/07/elevated-command-prompt-on-vista-and-windows-7/) or [the same elevated Command Prompt in Windows 8](/archives/2013/03/10/elevated-command-prompt-on-windows-8/) enter the following command:```
+From an [elevated Command Prompt in Vista/Windows 7](/archives/2010/10/07/elevated-command-prompt-on-vista-and-windows-7/) or [the same elevated Command Prompt in Windows 8](/archives/2013/03/12/elevated-command-prompt-on-windows-8/) enter the following command:```
 netsh interface ipv4 show subinterfaces
 
 ```

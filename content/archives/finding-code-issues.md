@@ -2,7 +2,7 @@
 title: 'Finding Code Issues'
 date: Fri, 01 Oct 2010 21:02:28 +0000
 draft: false
-tags: ['.NET', 'CodeRush', 'Programming']
+tags: ['dotnet', 'CodeRush', 'Programming']
 ---
 
 As programmers we are well known for writing bug free perfectly formed code first time round, as such I don't really understand why DevExpress implemented the code issues feature... no wait... that should be the other way round.

@@ -2,7 +2,7 @@
 title: 'Preventing the PictureBox control from locking files'
 date: Sun, 28 Feb 2010 20:18:58 +0000
 draft: false
-tags: ['.NET', 'C#', 'EVEMon', 'EVEMon', 'Programming', 'Programming']
+tags: ['dotnet', 'C#', 'EVEMon', 'EVEMon', 'Programming', 'Programming']
 ---
 
 One of our more regular contributors to [EVEMon](https://web.archive.org/web/20140702024802/http://evemon.battleclinic.com/) posted on our forums showing that the application was incapable of updating cached files (specifically images), after a bit testing I discovered the following Exception was being thrown when trying to overwrite the file in question:
