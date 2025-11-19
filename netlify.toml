@@ -42,16 +42,12 @@
     Expect-Staple = "max-age=31536000;"
     Permissions-Policy = '''
       accelerometer=(),
-      ambient-light-sensor=(),
       autoplay=(),
-      battery=(),
       camera=(),
       cross-origin-isolated=(),
       display-capture=(),
       document-domain=(),
       encrypted-media=(),
-      execution-while-not-rendered=(),
-      execution-while-out-of-viewport=(),
       fullscreen=(),
       geolocation=(),
       gyroscope=(),
