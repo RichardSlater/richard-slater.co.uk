@@ -25,6 +25,7 @@
 [[headers]]
   for = "/*"
   [headers.values]
+    Report-To = "{\"group\":\"default\",\"max_age\":31536000,\"endpoints\":[{\"url\":\"https://richardslater.report-uri.com/a/d/g\"}],\"include_subdomains\":true}"
     X-XSS-Protection = "1; mode=block"
     X-Frame-Options = "SAMEORIGIN"
     Content-Security-Policy = '''
@@ -37,10 +38,13 @@
       manifest-src 'none';
       connect-src 'self' https://www.google-analytics.com;
       frame-src https://www.googletagmanager.com https://app.netlify.com/;
+      report-uri https://richardslater.report-uri.com/r/d/csp/enforce;
+      report-to default;
+    NEL = "{\"report_to\":\"default\",\"max_age\":31536000,\"include_subdomains\":true}"
     '''
     Strict-Transport-Security = "max-age=63072000;"
-    Expect-CT = "enforce, max-age=86400"
-    Expect-Staple = "max-age=31536000;"
+    Expect-CT = "enforce, max-age=86400, report-uri=\"https://richardslater.report-uri.com/r/d/ct/enforce\""
+    Expect-Staple = "max-age=31536000; report-uri=\"https://richardslater.report-uri.com/r/d/staple/enforce\""
     Permissions-Policy = '''
       accelerometer=(),
       autoplay=(),
