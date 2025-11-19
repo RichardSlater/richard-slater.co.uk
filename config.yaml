@@ -9,6 +9,8 @@ permalinks:
 
 googleAnalytics: G-S9EH7VDT2S
 
+enableGitInfo: true
+
 menu:
   main:
     - identifier: portfolio
@@ -23,6 +25,10 @@ menu:
       name: Archive
       url: "/archives/"
       weight: 30
+    - identifier: privacy
+      name: Privacy
+      url: "/privacy/"
+      weight: 90
 
 params:
   ShowShareButtons: true
@@ -46,6 +52,8 @@ params:
       url: "https://www.facebook.com/rdsuk"
     - name: "Instagram"
       url: "https://www.instagram.com/richardslater/"
+    - name: "TikTok"
+      url: "https://www.tiktok.com/@richardslateruk"
     - name: "Medium"
       url: "https://medium.com/@richardslaterinthecloud"
     - name: "Github"
@@ -66,3 +74,26 @@ params:
       url: "https://www.twitch.tv/scetrov"
     - name: "Steam"
       url: "http://steamcommunity.com/id/Vortecs/"
+
+privacy:
+  disqus:
+    disable: true
+  googleAnalytics:
+    anonymizeIP: true
+    disable: false
+    respectDoNotTrack: true
+    useSessionStorage: true
+  instagram:
+    disable: false
+    simple: true
+  twitter:
+    disable: false
+    enableDNT: true
+    simple: false
+  vimeo:
+    disable: true
+    enableDNT: true
+    simple: true
+  youtube:
+    disable: false
+    privacyEnhanced: true
