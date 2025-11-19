@@ -93,7 +93,7 @@ to it you shouldn't have any issues:
 > `jekyll-paginate` gem with `gem install jekyll-paginate`.  I had some Ruby
 > Environmental issues, specifically this error message:
 >
-> ```error
+> ```
 > Dependency Error: Yikes! It looks like you don't have
 > jekyll-paginate or one of its dependencies installed. To use Jekyll
 > as currently configured, you'll need to install this gem. The full error
