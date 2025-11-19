@@ -4,6 +4,11 @@
         {
             "language": "markdown",
             "scheme": "file"
+        },
+        {
+            "language": "markdown",
+            "scheme": "untitled",
+            "pattern": "Untitled-1"
         }
     ]
 }
