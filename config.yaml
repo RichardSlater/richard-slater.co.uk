@@ -42,6 +42,7 @@ params:
   ShowBreadCrumbs: true
   ShowPostNavLinks: true
   ShowCodeCopyButtons: true
+  description: "Personal blog of Richard Slater, Christian, Technologist, Consultant, Author and Leader."
   profileMode:
     enabled: true
     title: "Richard Slater"
