@@ -6,6 +6,10 @@ draft: true
 
 {{< disclosure >}}
 
+## Superscript
+
+21{{< sup >}}st{{</ sup >}}
+
 ## Explicit ASIN
 
 Link: {{< amazon-affiliate-link asin="B07X78SMWP" text="Sony A6600" >}}
