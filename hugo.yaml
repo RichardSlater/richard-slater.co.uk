@@ -1,7 +1,7 @@
 baseURL: https://www.richard-slater.co.uk
 languageCode: en-gb
 title: Richard Slater
-copyright: "[Cookie and Privacy Policy](/legal/privacy/) | [Disclaimer](/legal/disclaimer/) | ©2024 Richard Slater, All Rights Reserved | "
+copyright: "[Cookie and Privacy Policy](/legal/privacy/) | [Disclaimer](/legal/disclaimer/) | ©2025 Richard Slater, All Rights Reserved | "
 permalinks:
   archives: /archives/:year/:month/:day/:slug/
   tags: /archives/category/:slug/
@@ -18,6 +18,10 @@ enableGitInfo: true
 markup:
   highlight:
     noClasses: false
+  # Goldmark unsafe renderer — keep false so raw HTML is not rendered
+  goldmark:
+    renderer:
+      unsafe: false
 
 outputs:
   home:
