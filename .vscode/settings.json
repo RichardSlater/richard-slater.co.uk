@@ -1,14 +1,15 @@
 {
-    "cSpell.language": "en,en-GB",
-    "grammarly.selectors": [
-        {
-            "language": "markdown",
-            "scheme": "file"
-        },
-        {
-            "language": "markdown",
-            "scheme": "untitled",
-            "pattern": "Untitled-1"
-        }
-    ]
+  "cSpell.language": "en,en-GB",
+  "grammarly.selectors": [
+    {
+      "language": "markdown",
+      "scheme": "file"
+    },
+    {
+      "language": "markdown",
+      "scheme": "untitled",
+      "pattern": "Untitled-1"
+    }
+  ],
+  "cSpell.words": ["LUKS", "multifactor", "Opensource", "Yubi"]
 }
