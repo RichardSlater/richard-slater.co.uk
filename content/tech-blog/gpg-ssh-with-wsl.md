@@ -82,9 +82,9 @@ There is a separate process between Windows and WSL, you can skip the WSL if you
 I used the following software and versions:
 
 - Windows 11 (Version 23H2):
-	- GnuPG 2.4+,
-	- Microsoft's OpenSSH 8.6+,
-	- Some kind of editor that write files ending in LF format, CRLF will not work, I used Visual Studio Code,
+    - GnuPG 2.4+,
+    - Microsoft's OpenSSH 8.6+,
+    - Some kind of editor that write files ending in LF format, CRLF will not work, I used Visual Studio Code,
 - Ubuntu WSL, other distros will likely work as well, although Ubuntu tends to be the best supported distro for WSL.
 
 You must have the relevant GPG keys, I strongly recommend creating a master certify key and then a subkey for each of designated purposes: encryption, signing and authentication. You can use [DrDuh's YubiKey Guide](https://github.com/drduh/YubiKey-Guide) 
@@ -92,10 +92,10 @@ You must have the relevant GPG keys, I strongly recommend creating a master cert
 
 1. Stop and Disable the "OpenSSH Authentication Agent" using `services.msc` or with PowerShell:
 
-	```powershell
-	Stop-Service -Name ssh-agent
-	Set-Service -Name ssh-agent -StartupType Disabled
-	```
+    ```powershell
+    Stop-Service -Name ssh-agent
+    Set-Service -Name ssh-agent -StartupType Disabled
+    ```
 
 1. Install GPG using the excellent WinGet package manager, Gpg4win will also work, although it comes with some extra software which I don't use:
 
@@ -105,24 +105,24 @@ You must have the relevant GPG keys, I strongly recommend creating a master cert
 
 1. Find `gpg-agent.conf` in your GnuPG configuration folder, it should be in `%APPDATA%/gnupg` / `$env:APPDATA/gnupg` and add the following lines of config, be 100% sure that this is saved using LF endings not CRLF
 
-	```conf title:"%APPDATA%/gnupg/gpg-agent.conf"
-	enable-ssh-support
-	enable-putty-support
-	enable-win32-openssh-support
-	
-	```
-	
+    ```conf title:"%APPDATA%/gnupg/gpg-agent.conf"
+    enable-ssh-support
+    enable-putty-support
+    enable-win32-openssh-support
+    
+    ```
+    
 1. Find `gpg.conf` in your GnuPG configuration folder, and add the following lines of config, again ensure that it's LF not CRLF line endings:
 
-	```conf title:"%APPDATA%/gnupg/gpg.conf"
-	use-agent
-	
+    ```conf title:"%APPDATA%/gnupg/gpg.conf"
+    use-agent
+    
     ```
     
 1. Find the GPG Keygrip of your Authentication Key:
 
-	```bash
-	# gpg --list-secret-keys --with-keygrip
+    ```bash
+    # gpg --list-secret-keys --with-keygrip
       sec#  rsa4096 2021-04-04 [C] [expires: 2031-04-02]
             12D116AE57EC434DA115DB503A18D6E0EC26FA92
             Keygrip = 8EC87770C2AB7E08F0B74076F21E5E0E4AD2B1D9
@@ -132,99 +132,122 @@ You must have the relevant GPG keys, I strongly recommend creating a master cert
             Keygrip = BDD95EA7DB56BDA213E9CE84F85060D1578B21CF
       ssb>  rsa4096 2024-07-26 [A] [expires: 2025-07-26]
             Keygrip = 0A50C016AA993AF5F0A508BF07361DEBB309D52F
-	```
+    ```
 
 1. Now update `sshcontrol` in your GnuPG configuration folder to add your key, again ensure that line endings are LF not CRLF.
 
-	```conf title:"%APPDATA%/gnupg/sshcontrol"
-	0A50C016AA993AF5F0A508BF07361DEBB309D52F
-	
-	```
+    ```conf title:"%APPDATA%/gnupg/sshcontrol"
+    0A50C016AA993AF5F0A508BF07361DEBB309D52F
+    
+    ```
 
 1. Add an environment variable to provide the named pipe to SSH, you can do this through System Properties → Environment Variables or through PowerShell:
 
-	```powershell
-	[Environment]::SetEnvironmentVariable("SSH_AUTH_SOCK", "\\.\pipe\openssh-ssh-agent", [System.EnvironmentVariableTarget]::User)
-	```
+    ```powershell
+    [Environment]::SetEnvironmentVariable("SSH_AUTH_SOCK", "\\.\pipe\openssh-ssh-agent", [System.EnvironmentVariableTarget]::User)
+    ```
 
 1. Update your PowerShell profile and add the following line to start the GPG Agent when you launch a terminal: 
-	
-	```bash
-	gpg-connect-agent /bye
-	```
+    
+    ```bash
+    gpg-connect-agent /bye
+    ```
+
+1. Use `ssh-add -L` to get your public key:
+
+   ```
+   ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAACAQDB7n7NyXkm6...
+   ```
+1. Now go to [Github Keys](https://github.com/settings/keys) and add the public key as a SSH Key.
 
 1. Open a new terminal to ensure that the environment variable is updated, then issue the following command, expect a pin entry dialogue and after a few seconds you should get a connection to GitHub.
 
-	```bash
-	# ssh git@github.com
+    ```bash
+    # ssh git@github.com
 
-	Hi RichardSlater! You\'ve successfully authenticated, but GitHub does not provide shell access.
-	Connection to github.com closed.
-	```
+    Hi RichardSlater! You\'ve successfully authenticated, but GitHub does not provide shell access.
+    Connection to github.com closed.
+    ```
 
 1. If this doesn't work check the output of `ssh-add -L` it should show a `ssh-rsa` key:
-	
-	```bash
-	# ssh-add -L
-	ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAACAQDB7n7NyXkm6OucNqS9ExJPUJk/+jhcIxTJD3RnEt2IywDvHWUOBBEcfpOxprj54UsJDrfAslIvhFZkjEi+3Tgow1qC7+HVS3GfNu1YCP+MmTOnnEXgAhtaM7LTVFgt9QYEZeSpgrIIaKSlb515ln4Ghy+Jehbs06V6TcJYG/qIQd1RXN40O13VEyXmNAVRSf9ra7Emfg1OLzu7wabhxLqeLGBJ2cf0QKf0+ip+jYqbq/D2ZsCBYmGgQcKiopuCW7a51zzu/Df6G+SJS2yzWwZx1PjJ0yqUFWpuVDlRJi2sBbBTL1TUftMzRiZsyQPrS/eAlGLxzGjmvjzZ3pLZtD5xc6Qs7By/r/5Acxbp+2wn3fuo6lVmD5P54R0PsQyw7jrV7C7Zb7Cl7EuXZqW3Pm42aowq4skstTmdXsZZx0RkFvFaxDw5IFtC78E5Dwy/4pECLNXQ8stc6A5MKElGwHhcABK8IdUGf6R0lU4yEzknb7KhvERZRKEslQh3Jcn+7zScc5WBbjT3SMEdySWPMwreOpe1gnt+6MSf/8lpQCyBOP1Mr4/SSa95pJpWyRr1OSPi0KgOvSTVwppG6thcV1fRpGsDtpPB192KKrzInP3fxF0UOT3PhLgn7zZAlyGBAIel4m/zK0tqjL3kG2CNwnOkMrq5CTdK1JS7KnK4a/rxCw== cardno:11_073_070
-	```
+    
+    ```bash
+    # ssh-add -L
+    ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAACAQDB7n7NyXkm6OucNqS9ExJPUJk/+jhcIxTJD3RnEt2IywDvHWUOBBEcfpOxprj54UsJDrfAslIvhFZkjEi+3Tgow1qC7+HVS3GfNu1YCP+MmTOnnEXgAhtaM7LTVFgt9QYEZeSpgrIIaKSlb515ln4Ghy+Jehbs06V6TcJYG/qIQd1RXN40O13VEyXmNAVRSf9ra7Emfg1OLzu7wabhxLqeLGBJ2cf0QKf0+ip+jYqbq/D2ZsCBYmGgQcKiopuCW7a51zzu/Df6G+SJS2yzWwZx1PjJ0yqUFWpuVDlRJi2sBbBTL1TUftMzRiZsyQPrS/eAlGLxzGjmvjzZ3pLZtD5xc6Qs7By/r/5Acxbp+2wn3fuo6lVmD5P54R0PsQyw7jrV7C7Zb7Cl7EuXZqW3Pm42aowq4skstTmdXsZZx0RkFvFaxDw5IFtC78E5Dwy/4pECLNXQ8stc6A5MKElGwHhcABK8IdUGf6R0lU4yEzknb7KhvERZRKEslQh3Jcn+7zScc5WBbjT3SMEdySWPMwreOpe1gnt+6MSf/8lpQCyBOP1Mr4/SSa95pJpWyRr1OSPi0KgOvSTVwppG6thcV1fRpGsDtpPB192KKrzInP3fxF0UOT3PhLgn7zZAlyGBAIel4m/zK0tqjL3kG2CNwnOkMrq5CTdK1JS7KnK4a/rxCw== cardno:11_073_070
+    ```
 
 1. If all you need is support from within Windows then you are done, if you want to configure WSL then you will need a final step on Windows before switching over to WSL.
 1. Install `npiperelay.exe` using go install.
 
-	```shell
-	go install github.com/jstarks/npiperelay@latest
-	```
-	
+    ```shell
+    go install github.com/jstarks/npiperelay@latest
+    ```
+    
 1. All being well this should install `npiperelay.exe` in `$env:USERPROFILE/go/bin` you will need to reference this from WSL, so check the path.
 ### WSL Setup
 
 1. Alias `gpg` on WSL to `C:\Program Files (x86)\GnuPG\bin\gpg.exe` on Windows:
 
-	```shell
-	sudo ln -s /mnt/c/Program\ Files\ \(x86\)/GnuPG/bin/gpg.exe /usr/local/bin/gpg
-	```
+    ```shell
+    sudo ln -s /mnt/c/Program\ Files\ \(x86\)/GnuPG/bin/gpg.exe /usr/local/bin/gpg
+    ```
 
 1. Alias `ssh` and `ssh-add` on WSL to their Windows counterparts on Windows:
 
-	```shell
-	sudo ln -s /mnt/c/Windows/System32/OpenSSH/ssh.exe /usr/local/bin/ssh
-	sudo ln -s /mnt/c/Windows/System32/OpenSSH/ssh-add.exe /usr/local/bin/ssh-add
-	```
+    ```sh
+    sudo ln -s /mnt/c/windows/system32/openssh/ssh.exe /usr/local/bin/ssh
+    sudo ln -s /mnt/c/windows/system32/openssh/ssh-add.exe /usr/local/bin/ssh-add
+    sudo ln -s /mnt/c/windows/system32/openssh/scp.exe /usr/local/bin/scp
+    ```
 
 1. This works because you can call any Windows Executable from WSL, and the `gpg` executables are compatible at the `stdin` and `stdout` level. The original executables are left in place, as `/usr/loca/bin` is typically in your path **before** `/usr/bin`.
+
+{{< notice tip >}}
+You can also symlink the files to other locations:
+
+```sh
+ln -s /mnt/c/Windows/System32/OpenSSH/ssh.exe $HOME/.local/bin/ssh
+ln -s /mnt/c/Windows/System32/OpenSSH/ssh-add.exe $HOME/.local/bin/ssh-add
+ln -s /mnt/c/Windows/System32/OpenSSH/scp.exe $HOME/.local/bin/scp
+```
+
+I use these from my [dotfiles](https://github.com/RichardSlater/dotfiles) to ensure this ports across distros.
+{{< /notice >}}
+
+#### Configure Git
+
 1. Now configure [git to sign your commits](https://docs.github.com/en/authentication/managing-commit-signature-verification/telling-git-about-your-signing-key) specifically you will need to run the following commands:
 
-	```
-	git config --global user.signingkey [YOUR KEY ID]
-	git config --global commit.gpgsign true
-	```
+    ```
+    git config --global user.signingkey [YOUR KEY ID]
+    git config --global commit.gpgsign true
+    ```
 
 1. At this point you can test everything works:
-	1. Create a new directory and change:
-		```
-		mkdir gpg-test
-		cd gpg-test
-	    ```
+    1. Create a new directory and change:
+        ```
+        mkdir gpg-test
+        cd gpg-test
+        ```
     
-	1. Initialize a new git repository with:
-		```
-		git init
-	    ```
+    1. Initialize a new git repository with:
+        ```
+        git init
+        ```
     
-	1. Create a file to commit:
-		```
-		touch text.txt
-		echo "test" >> test.txt
-	    ```
+    1. Create a file to commit:
+        ```
+        touch text.txt
+        echo "test" >> test.txt
+        ```
 
-	1. Add the file to git:
-		```
-		git add test.txt
-		```
+    1. Add the file to git:
+        ```
+        git add test.txt
+        ```
 
-	1. Commit your changes with`git commit`, this should prompt you for a commit message by opening up your `$EDITOR` and once that is saved and exited then prompt you for your YubiKey PIN and touch.
-	1. Push the changes to the remote `git push origin HEAD` this should require you to touch your YubiKey (if touch is configured) to authenticate with GitHub.
+    1. Commit your changes with`git commit`, this should prompt you for a commit message by opening up your `$EDITOR` and once that is saved and exited then prompt you for your YubiKey PIN and touch.
+    1. Push the changes to the remote `git push origin HEAD` this should require you to touch your YubiKey (if touch is configured) to authenticate with GitHub.
 
 I've tested the testing flow in Visual Studio too, and that works flawlessly when launched from WSL with 
 ```shell
