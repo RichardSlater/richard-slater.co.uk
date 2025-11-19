@@ -90,7 +90,14 @@ _Note: WordPress is no longer in use on this site; the associated MySQL Database
 
 ## Advertising Partners Privacy Policies
 
-This website does not work with advertising partners to serve adverts to visitors.
+The Site may contain links to other websites or content belonging to or originating from third parties, or links to websites and features in banners or other advertising.
+
+### Advertising Partners
+
+This site leverages the following advertising partners:
+
+* Amazon UK links an product images ([Privacy Policy](https://www.amazon.co.uk/gp/help/customer/display.html?nodeId=GX7NJQ4ZB8MHFRNJ))
+* Mention Me referral links ([Privacy Policy](https://mention-me.com/help/privacy_policy_s#:~:text=Mention%20Me%20takes%20data%20privacy,how%20you%20interacted%20with%20us.))
 
 ## Third Party Privacy Policies
 
