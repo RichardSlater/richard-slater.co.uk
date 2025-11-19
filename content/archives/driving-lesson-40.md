@@ -1,5 +1,12 @@
+
+
+
+
+
+
 ---
 title: 'Driving Lesson #40'
+slug: driving-lesson-40
 date: Sun, 29 Mar 2009 19:17:09 +0000
 draft: false
 tags: ['Diary', 'Driving']

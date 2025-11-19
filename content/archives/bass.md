@@ -5,4 +5,4 @@ draft: false
 tags: ['Bass', 'Diary', 'Music']
 ---
 
-![Bass, Bass Amp and FX Pedal](/uploads/2007/09/image023.jpg "Bass, Bass Amp and FX Pedal") So after begging and borrowing the various parts I needed I finally have everything that would technically allow me to play a \[\[Wikipedia:bass guitar\]\], hopefully over the next few months I will have the time to dedicate to learning to play it properly. Had a bit of a play over the last day and it is great fun!
+![Bass, Bass Amp and FX Pedal](/uploads/2007/09/image023.jpg "Bass, Bass Amp and FX Pedal") So after begging and borrowing the various parts I needed I finally have everything that would technically allow me to play a bass guitar, hopefully over the next few months I will have the time to dedicate to learning to play it properly. Had a bit of a play over the last day and it is great fun!

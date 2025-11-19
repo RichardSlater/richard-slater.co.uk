@@ -5,7 +5,7 @@ draft: false
 tags: ['C#', 'CodeRush', 'Programming', 'Programming', 'Visual Studio']
 ---
 
-Code outlining is a feature of supported by Visual Studio and many other editors, MSDN has some good documentation for [VS2005](http://msdn.microsoft.com/en-us/library/td6a5x4s(VS.80).aspx), [VS2008](http://msdn.microsoft.com/en-us/library/td6a5x4s.aspx) and [VS2010](http://msdn.microsoft.com/en-us/library/td6a5x4s(VS.100).aspx). If I were asked to explain this as briefly as possible, I would probably say:
+Code outlining is a feature of supported by Visual Studio and many other editors, MSDN has some good documentation for VS2005, [VS2008](http://msdn.microsoft.com/en-us/library/td6a5x4s.aspx) and [VS2010](http://msdn.microsoft.com/en-us/library/td6a5x4s(VS.100).aspx). If I were asked to explain this as briefly as possible, I would probably say:
 
 > Code Outlining is the logical partitioning of code in such a way that the user interface, or editor, is able to selectively hide the body of the content (such as a class, struct, enum or method) whilst leaving the signature or some identifying comment visible.
 

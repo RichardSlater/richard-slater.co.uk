@@ -4,7 +4,8 @@ title: Richard Slater
 theme: papermod
 copyright: ©2022 Richard Slater, All Rights Reserved,
 permalinks:
-  archives: /archives/:year/:month/:day/:title/
+  archives: /archives/:year/:month/:day/:slug/
+  tags: /archives/category/:slug/
 
 params:
     profileMode:
