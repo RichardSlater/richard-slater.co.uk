@@ -1,4 +1,4 @@
-baseURL: /
+baseURL: https://www.richard-slater.co.uk
 languageCode: en-gb
 title: Richard Slater
 theme: papermod
@@ -62,7 +62,7 @@ params:
     enabled: true
     title: "Richard Slater"
     subtitle: "Christian, Technologist, Consultant, Author and Leader"
-    imageUrl: "/profile/seasonal-profile-picture.webp"
+    imageUrl: "profile/seasonal-profile-picture.webp"
     imageTitle: "Richard Slater's Profile Picture with Ukraine Flag as background"
     imageWidth: 180
     imageHeight: 180
@@ -72,8 +72,8 @@ params:
     appendFilePath: true
 
   socialIcons:
-    - name: "Twitter"
-      url: "https://twitter.com/richardslater"
+    - name: "X"
+      url: "https://x.com/richardslater"
     - name: "LinkedIn"
       url: "https://www.linkedin.com/in/devopsrichard/"
     - name: "YouTube"
