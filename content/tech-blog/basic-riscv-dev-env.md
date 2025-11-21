@@ -27,7 +27,7 @@ My current build is:
 
 - [Orange Pi RV2 8GB](https://amzn.to/4oK1g9H)
 - [Waveshare 5V 5A Type C PoE Splitter](https://amzn.to/48bO1HR)
-- [Inexpensive Lexar 1TB NVMe SSD](https://amzn.to/3XI05eQ)
+- [Inexpensive Lexar 0.5TB NVMe SSD](https://amzn.to/3XI05eQ)
 
 All of this is plugged into an 8-Port [Unifi PoE Switch](https://amzn.to/4i4Q3Ok) I already had.
 
