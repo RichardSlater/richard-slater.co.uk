@@ -25,7 +25,7 @@ This document is provided as-is for educational purposes. Oracle Cloud Infrastru
 
 ## Executive Summary
 
-Here we find ouself in a common but poorly documented issue affecting SSH connections to Oracle Cloud Infrastructure (OCI) instances, particularly on ARM64 (Ampere) shapes. After a small number of SSH connections from a single source IP address, subsequent connection attempts timeout completely while ICMP (ping) continues to work normally.
+Here we find ourselves in a common but poorly documented issue affecting SSH connections to Oracle Cloud Infrastructure (OCI) instances, particularly on ARM64 (Ampere) shapes. After a small number of SSH connections from a single source IP address, subsequent connection attempts timeout completely while ICMP (ping) continues to work normally.
 
 **Root Cause:** OCI implements network-level SSH rate limiting as an anti-abuse measure. This rate limiting operates at the infrastructure level, outside the instance, and cannot be disabled by users.
 
