@@ -39,8 +39,9 @@ find ~ -type f -name "package.json" -exec grep -Hni "@redhat-cloud-services" {} 
 
 ```
 
-> [!NOTE]
-> These commands use `2>/dev/null` to avoid errors caused by podman permissions, you may want to run without the stderr redirection and investigate permission issues.
+{{< notice info >}}
+These commands use `2>/dev/null` to avoid errors caused by podman permissions, you may want to run without the stderr redirection and investigate permission issues.
+{{< /notice >}}
 
 ### 2. Malicious Preinstall Discovery (Filtered)
 
@@ -73,8 +74,9 @@ find ~ -type f -name "binding.gyp" -exec grep -HniE '<\!\(node.*(child_process|e
 
 ```
 
-> [!IMPORTANT]
-> This command has a very high probability of false-positives, all you can really do is investigate the packages identified and compare to known vulnerable packages from StepSecurity, Snyk, etc.
+{{< notice warning >}}
+This command has a very high probability of false-positives, all you can really do is investigate the packages identified and compare to known vulnerable packages from StepSecurity, Snyk, etc.
+{{< /notice >}}
 
 ### Wave 3: AI Agent & IDE Poisoning (June 5)
 
