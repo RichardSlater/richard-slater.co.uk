@@ -1,9 +1,1 @@
-<script type="module">
-  import mermaid from "https://cdn.jsdelivr.net/npm/mermaid@10.9.1/+esm";
-  mermaid.initialize({
-    startOnLoad: true,
-    theme: document.querySelector("body").classList.contains("dark")
-      ? "dark"
-      : "default",
-  });
-</script>
+<script type="module" src="{{ "js/mermaid.js" | relURL }}"></script>
