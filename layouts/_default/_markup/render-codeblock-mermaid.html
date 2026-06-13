@@ -1,4 +1,6 @@
 <pre class="mermaid">
-  {{- .Inner | htmlEscape }}
+  {{- /* safeHTML is required here because .Inner is already escaped by Goldmark (unsafe: false). 
+         Using htmlEscape would double-escape (e.g., ->> becomes -&amp;gt;&amp;gt;) and break Mermaid parsing. */ -}}
+  {{- .Inner | safeHTML }}
 </pre>
 {{ .Page.Store.Set "hasMermaid" true }}
