@@ -1,7 +1,7 @@
 baseURL: https://www.richard-slater.co.uk
 languageCode: en-gb
 title: Richard Slater
-copyright: "[Cookie and Privacy Policy](/legal/privacy/) | [Disclaimer](/legal/disclaimer/) | ©2025 Richard Slater, All Rights Reserved | "
+copyright: "[Cookie and Privacy Policy](/legal/privacy/) | [Disclaimer](/legal/disclaimer/) | ©2026 Richard Slater, All Rights Reserved | "
 permalinks:
   archives: /archives/:year/:month/:day/:slug/
   tags: /archives/category/:slug/
@@ -75,7 +75,7 @@ params:
     imageWidth: 180
     imageHeight: 180
   editPost:
-    URL: "https://github.com/RichardSlater/richard-slater.co.uk/tree/master/content"
+    URL: "https://github.com/RichardSlater/richard-slater.co.uk/tree/main/content"
     Text: "Suggest Changes"
     appendFilePath: true
 
@@ -126,7 +126,7 @@ privacy:
   instagram:
     disable: false
     simple: true
-  twitter:
+  x:
     disable: false
     enableDNT: true
     simple: false
